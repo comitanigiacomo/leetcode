@@ -4,6 +4,24 @@ The program is designed to sort an integer array based on the number of set bits
 
 Here's the full description of the [problem](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/?envType=daily-question&envId=2023-10-30)
 
+
+# Approach
+
+
+Here's the corrected version with proper spelling:
+
+- The sort.Slice function customizes the sorting of the array.
+- The custom sorting function compares two integers, i and j, based on the number of set bits.
+- The number of set bits for both arr[i] and arr[j] will be calculated using the countBits function.
+- If the number of set bits is the same for both integers (countI == countJ), the program will compare them based on their values (arr[i] < arr[j]), ensuring that elements with the same number of set bits are sorted in ascending order.
+- If the number of set bits is different (countI != countJ), the program will compare them based on the number of set bits (countI < countJ), ensuring that elements are sorted by the number of set bits.
+The sorted array will be returned as the result.
+
+# Complexity
+
+- Time complexity: O(n * log(n)) (due to the sorting step)
+- Space complexity: O(n) (for the input and output arrays)
+
 ## Code
 
 ```go
@@ -30,16 +48,3 @@ func countBits(n int) int {
 	return count
 }
 ```
-## Explanation
-
-The sortByBits function takes an integer array `arr` as input and sorts it using the `sort.Slice` function. It defines a custom comparison function as the sorting criterion
-
-The custom comparison function `(func(i, j int) bool)` calculates the number of set bits (1s) for elements at positions i and j in the array arr by calling the countBits function.
-
-The `countBits` function calculates the number of set bits (1s) in the binary representation of an integer n.
-
-Inside the loop, the function uses the bitwise AND operator `(n & 1)` to check the least significant bit of n. If this bit is 1, it increments the count variable.
-
-The function then right-shifts n by one position using `n >>= 1` to check the next bit.
-
-
