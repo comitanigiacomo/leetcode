@@ -62,12 +62,64 @@ At this point, to improve the program I thought it would be better to try using 
 
 # Approach 2
 
-
+The program performs an in-order traversal of the BST while maintaining awareness of the current element and its count.
+If the program encounters a new element, it resets the current element and count.
+Whenever the program finds an element with a count greater than the max count, it updates the max count and resets the frequentElements slice.
+If the program encounters an element with the same count as the max count, it adds it to the frequentElements slice.
 
 # Complexity 2
 
-- **Time complexity**: 
+- **Time complexity**: The time complexity of this algorithm is O(n), where "n" is the number of nodes in the binary tree. This is because the program visits each node exactly once during the in-order traversal.
 
-- **Space complexity**: 
+- **Space complexity**: The space complexity is O(h), where "h" is the height of the tree. This is due to the use of recursive calls and the call stack for in-order traversal.
 
 # Code 2
+
+
+```go
+func findMode(root *TreeNode) []int {
+	varfunc findMode(root *TreeNode) []int {
+	var currentElement int
+	var currentCount, maxCount int
+	var frequentElements []int
+
+	var visit func(node *TreeNode)
+	visit = func(node *TreeNode) {
+		if node == nil {
+			return
+		}
+…	visit(root)
+	return frequentElements
+} currentElement int
+	var currentCount, maxCount int
+	var frequentElements []int
+
+	var visit func(node *TreeNode)
+	visit = func(node *TreeNode) {
+		if node == nil {
+			return
+		}
+
+		visit(node.Left)
+
+		if node.Val != currentElement {
+			currentElement = node.Val
+			currentCount = 1
+		} else {
+			currentCount++
+		}
+
+		if currentCount > maxCount {
+			maxCount = currentCount
+			frequentElements = []int{currentElement}
+		} else if currentCount == maxCount {
+			frequentElements = append(frequentElements, currentElement)
+		}
+
+		visit(node.Right)
+	}
+
+	visit(root)
+	return frequentElements
+}
+```
