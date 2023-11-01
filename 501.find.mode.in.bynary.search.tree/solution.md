@@ -124,3 +124,7 @@ func findMode(root *TreeNode) []int {
 	return frequentElements
 }
 ```
+
+# Final thoughts
+
+Solving this problem led me to improve my knowledge of BST and recursive functions. The key point in solving the problem was the idea of resetting the list each time to effectively keep only the most frequent elements in memory, even though initially, the first element might be the most frequent one.
