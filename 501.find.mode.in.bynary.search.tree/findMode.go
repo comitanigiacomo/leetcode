@@ -41,9 +41,9 @@ func findMode(root *TreeNode) []int {
 
 		if currentCount > maxCount {
 			maxCount = currentCount
-			frequentElements = []int{currentElement} // Reimposta la lista con il nuovo elemento più frequente
+			frequentElements = []int{currentElement}
 		} else if currentCount == maxCount {
-			frequentElements = append(frequentElements, currentElement) // Aggiungi l'elemento con lo stesso conteggio massimo
+			frequentElements = append(frequentElements, currentElement)
 		}
 
 		visit(node.Right)
@@ -54,7 +54,7 @@ func findMode(root *TreeNode) []int {
 }
 
 func main() {
-	// Esempio di utilizzo
+
 	root := &TreeNode{Value: 1}
 	root.Left = nil
 	root.Right = &TreeNode{Value: 2}
