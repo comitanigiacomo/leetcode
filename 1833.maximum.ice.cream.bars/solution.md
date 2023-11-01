@@ -18,6 +18,7 @@ The counting array is sized based on the range of values in the input array. Cou
 The counting sort has a time complexity of O(n) to sort the costs array efficiently, where n is the number of ice cream bars.
 The subsequent iteration through the sorted array also takes O(n) time.
 - Space complexity: O(n)
+
 The program uses additional space for the sorted array in the counting sort, which takes O(n) space.
 The space complexity is mainly due to the need to store the input and output arrays.
 
