@@ -88,9 +88,10 @@ func findMode(root *TreeNode) []int {
 		if node == nil {
 			return
 		}
-…	visit(root)
-	return frequentElements
-} currentElement int
+	    visit(root)
+	    return frequentElements
+    }    
+    currentElement int
 	var currentCount, maxCount int
 	var frequentElements []int
 
