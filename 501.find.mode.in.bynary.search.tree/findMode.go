@@ -7,40 +7,59 @@
  * }
  */
 
-// first idea: I create an auxiliary structure to keep track of the number of times
-// each node is present in the tree, and return the most frequent ones
-func findMode(root *TreeNode) []int {
-	mode := make(map[int]int)
+package main
 
-	search(root, mode)
+import (
+	"fmt"
+)
 
-	var max int
-
-	var modes []int
-
-	for _, v := range mode {
-		if v > max {
-			max = v
-		}
-	}
-
-	for k, v := range mode {
-		if v == max {
-			modes = append(modes, k)
-		}
-	}
-
-	return modes
-
+type TreeNode struct {
+	Value int
+	Left  *TreeNode
+	Right *TreeNode
 }
 
-// recursive function that visits the tree in post order
-func search(node *TreeNode, mode map[int]int) {
-	if node.Left != nil {
-		search(node.Left, mode)
+func findMode(root *TreeNode) []int {
+	var currentElement int
+	var currentCount, maxCount int
+	var frequentElements []int
+
+	var visit func(node *TreeNode)
+	visit = func(node *TreeNode) {
+		if node == nil {
+			return
+		}
+
+		visit(node.Left)
+
+		if node.Value != currentElement {
+			currentElement = node.Value
+			currentCount = 1
+		} else {
+			currentCount++
+		}
+
+		if currentCount > maxCount {
+			maxCount = currentCount
+			frequentElements = []int{currentElement} // Reimposta la lista con il nuovo elemento più frequente
+		} else if currentCount == maxCount {
+			frequentElements = append(frequentElements, currentElement) // Aggiungi l'elemento con lo stesso conteggio massimo
+		}
+
+		visit(node.Right)
 	}
-	if node.Right != nil {
-		search(node.Right, mode)
-	}
-	mode[node.Val]++
+
+	visit(root)
+	return frequentElements
+}
+
+func main() {
+	// Esempio di utilizzo
+	root := &TreeNode{Value: 1}
+	root.Left = nil
+	root.Right = &TreeNode{Value: 2}
+	root.Right.Left = &TreeNode{Value: 2}
+
+	frequentElements := findMode(root)
+	fmt.Println(frequentElements)
 }
