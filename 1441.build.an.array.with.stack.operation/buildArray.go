@@ -1,21 +1,18 @@
 func buildArray(target []int, n int) []string {
 
 	output := []string{}
-	stream := []int{}
 
-	for i := 1; i <= n; i++ {
-		stream = append(stream, i)
-	}
+	n = n - n + 1
 
 	for i := 0; i < len(target); i++ {
-		if target[i] == stream[0] {
+		if target[i] == n {
 			output = append(output, "Push")
-			stream = stream[1:]
-		} else if target[i] > stream[0] {
+			n++
+		} else if target[i] > n {
 			output = append(output, "Push")
-			stream = stream[1:]
 			output = append(output, "Pop")
 			i--
+			n++
 		}
 	}
 	return output

@@ -48,9 +48,9 @@ Since `n` is always greater than or equal to the largest value of target, I can 
 
 # complexity 2
 
-- Time Complexity: O(n) - The function's time complexity is linear with respect to the length of the target slice.
+- Time Complexity: O(n) - The function's time complexity is linear with respect to the length of the `target` slice.
 
-- Space Complexity: O(n) - The function's space complexity is linear with respect to the length of the target slice, primarily due to the output slice.
+- Space Complexity: O(n) - The function's space complexity is linear with respect to the length of the `target` slice, primarily due to the output slice.
 
 # code 2
 
