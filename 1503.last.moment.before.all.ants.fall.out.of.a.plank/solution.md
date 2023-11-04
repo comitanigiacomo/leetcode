@@ -12,7 +12,7 @@ My idea was to not actually consider the change of direction, because this does 
 
 # Complexity
 
-- Time complexity: O(N)
+- Time complexity: O(N), where N is the number of ants on one side.
 - Space complexity: O(1)
 
 
