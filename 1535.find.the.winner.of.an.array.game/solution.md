@@ -2,7 +2,7 @@
 
 The program solves the problem of finding the winner of a game where two distinct integers compete in consecutive rounds. The game continues until one of them wins k consecutive rounds. 
 
-Here's the full description of the [problem](Leetcode.com/problems/find-the-winner-of-an-array-game/?envType=daily-question&envId=2023-11-05)
+Here's the full description of the [problem](https://leetcode.com/problems/find-the-winner-of-an-array-game/)
 
 
 # Approach 
