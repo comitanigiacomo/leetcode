@@ -10,4 +10,5 @@ Here is a list of my favorite solutions:
 - [1503.last.moment.before.all.ants.fall.out.of.a.plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/solutions/4248050/easy-solution/)
 - [2849.determine.if.a.cell.is.reachable.at.a.given.time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/solutions/4264712/easy-solution/)
 
+- [2785.sort.vowels.in.a.string](https://leetcode.com/problems/sort-vowels-in-a-string/solutions/4282793/easy-go-solution/)
 
