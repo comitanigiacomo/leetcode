@@ -12,3 +12,4 @@ Here is a list of my favorite solutions:
 
 - [2785.sort.vowels.in.a.string](https://leetcode.com/problems/sort-vowels-in-a-string/solutions/4282793/easy-go-solution/)
 
+- [1887.reduction.operations.to.make.the.array.elements.equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/solutions/4306474/easy-go-solution-beats-100-in-space-and-time/)
