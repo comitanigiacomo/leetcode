@@ -11,8 +11,8 @@ func main() {
 
 func findDiagonalOrder(nums [][]int) []int {
 
-	final := []int{}
-	arr := [][]int{}
+	output := []int{}
+	sameDiagonal := [][]int{}
 	max := 0
 
 	for i := 0; i < len(nums); i++ {
@@ -24,21 +24,19 @@ func findDiagonalOrder(nums [][]int) []int {
 	}
 
 	for i := 0; i <= max; i++ {
-		arr = append(arr, []int{})
+		sameDiagonal = append(sameDiagonal, []int{})
 	}
 
 	for row, slice := range nums {
 		for column, value := range slice {
-			arr[row+column] = append(arr[row+column], value)
+			sameDiagonal[row+column] = append(sameDiagonal[row+column], value)
 		}
 	}
 
-	for _, v := range arr {
+	for _, v := range sameDiagonal {
 		for i := len(v) - 1; i >= 0; i-- {
-			final = append(final, v[i])
+			output = append(output, v[i])
 		}
 	}
-
-	return final
-
+	return output
 }
