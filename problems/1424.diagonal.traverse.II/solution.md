@@ -5,11 +5,15 @@ Here's the full description of the [problem](https://leetcode.com/problems/diago
 
 # Approach
 
+- Iterate through the nums array to find the maximum diagonal index (max).
+- Create a 2D slice `sameDiagonal` to store elements from the same diagonal.
+- Populate the `sameDiagonal` slice with elements from nums.
+- Traverse the `sameDiagonal` slice in reverse order and append elements to the `output` slice.
 
 # Complexity
 
-- Time complexity: 
-- Space complexity:
+- Time complexity: O(N + M), where N is the total number of elements in nums and M is the maximum diagonal index.
+- Space complexity:O(N)
 
 # code
 
