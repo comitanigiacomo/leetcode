@@ -6,7 +6,7 @@ Here's the full description of the [problem](https://leetcode.com/problems/find-
 
 To solve this problem, I can count the frequency of each character in the chars string and then check if each word in the words array can be formed using the characters in chars.
 
-ff
+
 # Complexity
 
 - Time complexity: O(N * M), where `N` is the length of the words array and `M` is the maximum length of a word in words 
