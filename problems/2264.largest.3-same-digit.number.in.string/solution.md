@@ -1,7 +1,6 @@
 # 2264.largest.3-same-digit.number.in.string
 
-Here's the full description of the [problem](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/description/?envType=daily-question&envId=2023-11-19)
-
+Here's the full description of the [problem](https://leetcode.com/problems/largest-3-same-digit-number-in-string/?envType=daily-question&envId=2023-12-04)
 
 # Approach 
 
