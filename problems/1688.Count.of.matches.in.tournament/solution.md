@@ -25,3 +25,5 @@ class Solution:
             return self.numberOfMatches(n/2) + n/2
         return  self.numberOfMatches((n - 1) / 2 + 1)  + (n - 1) / 2
 ```
+
+For other solutions to LeetCode problems, you can visit my GitHub account by clicking [here](https://github.com/comitanigiacomo/leetcode)
