@@ -30,5 +30,3 @@ class Solution:
             to_put += 1
         return money_bank
 ```
-
-For more solution's to Leetcode problems you can visit my GitHub profile by clicking [here](https://github.com/comitanigiacomo/leetcode)
