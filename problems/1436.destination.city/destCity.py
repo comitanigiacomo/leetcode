@@ -16,4 +16,3 @@ paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
 sol1 = Solution()
 result = sol1.destCity(paths)
 print(result)
-        

@@ -10,4 +10,4 @@ class Solution:
 num = "52"   
 sol1 = Solution()
 result = sol1.largestOddNumber(num)
-print(result)        
+print(result)       
