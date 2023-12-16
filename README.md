@@ -16,6 +16,5 @@ Here is a list of my favorite solutions:
 
 # Badges: 
 
-<img src="https://assets.leetcode.com/static_assets/others/Introduction_to_Pandas_Badge.png" width="70">
-<img src="https://assets.leetcode.com/static_assets/marketing/lg50.png" width="70">
+<img src="https://assets.leetcode.com/static_assets/others/Introduction_to_Pandas_Badge.png" width="70"> <img src="https://assets.leetcode.com/static_assets/marketing/lg50.png" width="70">
 
