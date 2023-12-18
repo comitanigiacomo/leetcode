@@ -15,7 +15,7 @@ My idea consists of sorting the values in increasing order to instantly find the
 ```Python
 class Solution:
     def maxProductDifference(self, nums: List[int]) -> int:
-        sorted = nums.sort()
+        nums.sort()
         return (nums[len(nums)-1]*nums[len(nums)-2])-(nums[0]*nums[1])
 ```
 
