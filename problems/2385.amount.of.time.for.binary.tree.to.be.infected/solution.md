@@ -12,7 +12,7 @@ The result is the total minutes needed for the entire tree to be infected.
 
 # Complexity
 
-T- Time Complexity: O(N), where `N` is the number of nodes in the binary tree.
+- Time Complexity: O(N), where `N` is the number of nodes in the binary tree.
 - Space Complexity: O(N), as additional space is used for the `deque`, `set`, and `adjacency_map`.
 
 # Code 
