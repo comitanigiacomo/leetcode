@@ -4,7 +4,7 @@ Here's the full description of the [problem](https://leetcode.com/problems/find-
 
 # Approach
 
-The program siterate through the given array of strings and checks each string if it is a palindrome using the isPalindrome function. The first palindrome found is returned. If no palindrome is found, an empty string is returned.
+The program iterates through the given array of strings and checks each string if it is a palindrome using the isPalindrome function. The first palindrome found is returned. If no palindrome is found, an empty string is returned.
 
 # Complexity
 
