@@ -4,8 +4,6 @@ Here's the full description of the [problem](https://leetcode.com/problems/bag-o
 
 # Approach
 
-# Approach
-
 The problem can be solved using a greedy approach. The program starts by sorting the tokens in ascending order. Then, it iterates through the tokens with two pointers, one pointing to the start of the sorted list and the other pointing to the end. The program maintains two variables: `score` to keep track of the maximum score obtained so far, and `power` to represent the current power available.
 
 At each step, the program checks if the current power is less than the value of the token pointed to by the left pointer. If it is, and if the `score` is greater than 0, the program trades tokens for power by incrementing the left pointer and decrementing the right pointer. Otherwise, if the current power is sufficient, the program consumes tokens to increase the score by incrementing the left pointer.
