@@ -1,0 +1,17 @@
+class Solution:
+    def minimumLength(self, s: str) -> int:
+        left = 0
+        right = len(s) - 1
+
+        while left < right and s[left] == s[right]:
+            char = s[left]
+            while left <= right and s[left] == char:
+                left += 1
+            while right >= left and s[right] == char: 
+                right -= 1
+        
+        return right -left +1
+
+s = "aabccabba"
+sol1 = Solution()
+print(sol1.minimumLength(s))  # Output: 3
