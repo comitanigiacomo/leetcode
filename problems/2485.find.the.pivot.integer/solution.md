@@ -5,6 +5,7 @@ Here's the full description of the [problem](https://leetcode.com/problems/find-
 # Approach
 
 To find the pivot integer, the program leverages the fact that the sum of the first x positive integers can be calculated using the formula 
+
 $$
 \frac{x \cdot (x + 1)}{2}
 $$
