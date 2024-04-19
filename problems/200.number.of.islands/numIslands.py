@@ -1,6 +1,5 @@
-# Idea: effettuando una BFS, controllo per ogni 1 se questo è circondato da acqua nelle 4 direzioni.
-# Dove non lo è, sposto la bfs su quella direzione e itero il procedimento, fino  a quando non ho visitato tutti gli 1 adiacenti
-# La BFS si ferma quando ha visitato tutti gli uni, e , nel caso in cui 
+# Idea: effettuando una BFS, e marco le celle che vengon da essa visitate a 1.
+# Conto poi il numero di volte che la BFS viene lanciata, e so il numero delle isole nella griglia.
 
 from typing import List
 
