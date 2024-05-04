@@ -16,13 +16,7 @@ class Solution:
             boats += 1
         
         return boats
-            
-        
-        
-                
-
-            
-        
+                 
 people = [5,1,4,2]
 limit = 6
 sol1 = Solution()
