@@ -21,7 +21,7 @@ class Solution:
             max_score = current_score
             
             if can_form(words[index], freq):
-                
+                # Choose the current word
                 word_freq = {}
                 for char in words[index]:
                     freq[char] -= 1
