@@ -14,6 +14,8 @@ Here is a list of my favorite solutions:
 
 - [1887.reduction.operations.to.make.the.array.elements.equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/solutions/4306474/easy-go-solution-beats-100-in-space-and-time/)
 
+- [1038.binary.search.tree.to.greater.sum.tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/solutions/5366439/easy-solution/)
+
 # Badges: 
 
 <img src="https://assets.leetcode.com/static_assets/others/Introduction_to_Pandas_Badge.png" width="70"> <img src="https://assets.leetcode.com/static_assets/marketing/lg50.png" width="70"><img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" width="70">
