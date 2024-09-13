@@ -1,30 +1,28 @@
-Per dare un occhiata alla traccia del problema clicca [qui](https://leetcode.com/problems/xor-queries-of-a-subarray/?envType=daily-question&envId=2024-09-13)
+To take a look at the problem statement, click [here](https://leetcode.com/problems/xor-queries-of-a-subarray/description/?envType=daily-question&envId=2024-09-13).
 
-# Spiegazione
+# Explanation
 
-Il problema consiste nel calcolare lo XOR di un intervallo di numeri in un array (ad esempio, gli elementi tra l'indice `left` e l'indice `righ`). Puntare su un approccio `brute force` potrebbe essere non ottimale, in quanto il codice sarebbe inefficiente in presenza di molti intervalli.
+The problem consists of calculating the `XOR` of a range of numbers in an array (for example, the elements between index `left` and index `right`). Relying on a `brute-force` approach might not be optimal, as the code would be inefficient when dealing with many intervals.
 
-Per risolvere il problema in modo efficiente è possibile usare il concetto di `prefix XOR`.
+To solve the problem efficiently, you can use the concept of `prefix XOR`.
 
-L'idea è quella di calcolare un array ausiliario `prefixXor`, che memorizza lo XOR di tutti  gli elementi da 0 ad un dato indice `i`: 
+The idea is to compute an auxiliary array `prefixXor`, which stores the `XOR` of all elements from index 0 to a given index `i`:
 
     prefixXor[i] = arr[0] ^ arr[1] ^ ... ^ arr[i-1]
 
-    
-In questo modo posso calcolare lo XOR di qualsiasi intervallo in tempo costante O(1). Infatti, sfruttando le proprietà dello XOR, se voglio ottenere lo XOR degli elementi tra `left` e `right`, posso farlo facendo: 
+With this, we can compute the `XOR` of any interval in constant time O(1). By leveraging the properties of XOR, if we want to get the XOR of elements between `left` and `right`, we can compute it as follows:
 
     XOR(left, right) = prefixXor[right + 1] ^ prefixXor[left]
 
-Questo funziona perchè: 
+This works because:
 
-- `prefixXor[right + 1]` contiene l'XOR di tutti gli elementi da 0 fino a `right`.
+- `prefixXor[right + 1]` contains the XOR of all elements from 0 to `right`.
 
-- `prefixXor[left]` contiene l'XOR di tutti gli elementi da 0 fino a `left - 1`.
+- `prefixXor[left]` contains the XOR of all elements from 0 to `left - 1`.
 
-- Quando facciamo XOR tra `prefixXor[right + 1]` e `prefixXor[left]`, tutti gli elementi da 0 a `left - 1` si cancellano (per la proprietà di involuzione), lasciandoci con l'XOR solo degli elementi tra `left` e `right`.
+- When we XOR `prefixXor[right + 1]` with `prefixXor[left]`, all the elements from 0 to `left - 1` cancel out (due to the `self-inverse property` of XOR), leaving us with the XOR of the elements between `left` and `right`.
 
-Notare come in `prefixXor`
-venga aggiunto un indice in più per gestire meglio l'indice `left`. Per questo motivo poi il risultato andrà calcolato utilizzando l'indice `right +1`.
+Notice how in `prefixXor`, an additional index is added to handle the `left` index better. For this reason, the `result` is calculated using the index `right + 1`.
 
 ```python
 from typing import List
