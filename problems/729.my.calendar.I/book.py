@@ -7,8 +7,8 @@ class MyCalendar:
         for s,e in self.bookings: 
             if start < e and end > s:
                 return False
-            self.bookings.append((start,end))
-            return True
+        self.bookings.append((start,end))
+        return True
         
         
     
