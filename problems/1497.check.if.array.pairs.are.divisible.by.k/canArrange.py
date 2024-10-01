@@ -6,7 +6,6 @@ class Solution:
 
         for elem in arr:
             tmp = elem % k 
-            print(elem, tmp)
             rests[tmp] += 1
 
         rests = rests[1:]
