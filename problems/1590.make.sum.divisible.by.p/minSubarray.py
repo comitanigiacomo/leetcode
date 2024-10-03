@@ -22,9 +22,6 @@ class Solution:
             prefix_map[current_remainder] = i
             
             
-            
-            print("provaaaaaaaaaaaaaaaaaaaaaaaa")
-            
         return min_length if min_length < len(nums) else -1
 
 nums = [3,1,4,2]
