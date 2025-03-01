@@ -20,6 +20,3 @@ class Solution:
 nums = [1,2,2,1,1,0]
 sol = Solution()
 print(sol.applyOperations(nums))     
-
-
-# You can check my solution's explanation by clicking [here](https://leetcode.com/problems/apply-operations-to-an-array/solutions/6483184/easy-solution-by-giacomoleetcode-w8cs/)  
