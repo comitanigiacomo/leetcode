@@ -1,9 +1,9 @@
 {
-    "1": {
-        "title": "Two Sum",
-        "mylink": "two-sum/solution.py",
-        "tags": ["#array", "#hash-table"],
-        "leetcodelink": "https://leetcode.com/problems/two-sum/"
+    "1903": {
+        "title": "Largest Odd Number in String",
+        "mylink": "problems/1903.largest.odd.number.in.string/largestOddNumber.py",
+        "tags": ["#string", "#greedy"],
+        "leetcodelink": "https://leetcode.com/problems/largest-odd-number-in-string/solutions/4375194/easiest-solution-by-giacomoleetcode-xixl/"
     },
     "2": {
         "title": "Add Two Numbers",

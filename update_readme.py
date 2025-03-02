@@ -11,8 +11,8 @@ def load_progress(file_path):
 # Funzione per generare la tabella da inserire nel README
 def generate_table(progress):
     table_header = "### LeetCode Progress Tracker 📅\n\n"
-    table_header += "| Problem ID | Title | Tags | Solution Link |\n"
-    table_header += "|------------|-------|------|---------------|\n"
+    table_header += "| Problem ID | Title | Tags | Solution | Explanation |\n"
+    table_header += "|------------|-------|------|----------|-------------|\n"
 
     table_rows = ""
     for problem_id, data in progress.items():
