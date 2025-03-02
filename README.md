@@ -3,20 +3,18 @@
 Welcome to my repository of LeetCode problem solutions. Here, you can find my solutions to various coding problems from [LeetCode](https://leetcode.com/), along with explanations and code snippets.
 
 You can view my LeetCode account by clicking [here](https://leetcode.com/GiacomoLeetCode/)
+### LeetCode Progress Tracker 📅
 
-Here is a list of my favorite solutions:
+| Problem ID | Title | Tags | Solution Link |
+|------------|-------|------|---------------|
+| 1 | Two Sum | #array #hash-table | [My Solution](two-sum/solution.py) | [Explanation](https://leetcode.com/problems/two-sum//) |
+| 2 | Add Two Numbers | #linked-list #math | [My Solution](add-two-numbers/solution.py) | [Explanation](https://leetcode.com/problems/two-sum//) |
+| 3 | Longest Substring Without Repeating Characters | #string #sliding-window | [My Solution](longest-substring/solution.py) | [Explanation](https://leetcode.com/problems/two-sum//) |
+| 4 | Longest Substring Without Repeating Characters | #string #sliding-window | [My Solution](longest-substring/solution.py) | [Explanation](https://leetcode.com/problems/two-sum//) |
 
-- [1441.build.an.array.with.stack.operation](https://leetcode.com/problems/build-an-array-with-stack-operations/solutions/4243274/daily-leetcode-challenge/)
-- [1503.last.moment.before.all.ants.fall.out.of.a.plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/solutions/4248050/easy-solution/)
-- [2849.determine.if.a.cell.is.reachable.at.a.given.time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/solutions/4264712/easy-solution/)
 
-- [2785.sort.vowels.in.a.string](https://leetcode.com/problems/sort-vowels-in-a-string/solutions/4282793/easy-go-solution/)
 
-- [1887.reduction.operations.to.make.the.array.elements.equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/solutions/4306474/easy-go-solution-beats-100-in-space-and-time/)
-
-- [1038.binary.search.tree.to.greater.sum.tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/solutions/5366439/easy-solution/)
 
 # Badges: 
 
 <img src="https://assets.leetcode.com/static_assets/others/Introduction_to_Pandas_Badge.png" width="70"> <img src="https://assets.leetcode.com/static_assets/marketing/lg50.png" width="70"><img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" width="70"> <img src="https://assets.leetcode.com/static_assets/marketing/2024-100-lg.png" width="70">
-

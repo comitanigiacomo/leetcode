@@ -1,20 +1,28 @@
 {
     "1": {
         "title": "Two Sum",
-        "link": "two-sum/solution.py",
+        "mylink": "two-sum/solution.py",
         "tags": ["#array", "#hash-table"],
-        "completed": true
+        "leetcodelink": "https://leetcode.com/problems/two-sum/"
     },
     "2": {
         "title": "Add Two Numbers",
-        "link": "add-two-numbers/solution.py",
+        "mylink": "add-two-numbers/solution.py",
         "tags": ["#linked-list", "#math"],
-        "completed": true
+        "leetcodelink": "https://leetcode.com/problems/two-sum/"
+        
     },
     "3": {
         "title": "Longest Substring Without Repeating Characters",
-        "link": "longest-substring/solution.py",
+        "mylink": "longest-substring/solution.py",
         "tags": ["#string", "#sliding-window"],
-        "completed": false
+        "leetcodelink": "https://leetcode.com/problems/two-sum/"
+        
+    },
+    "4": {
+        "title": "Longest Substring Without Repeating Characters",
+        "mylink": "longest-substring/solution.py",
+        "tags": ["#string", "#sliding-window"],
+        "leetcodelink": "https://leetcode.com/problems/two-sum/"
     }
 }
