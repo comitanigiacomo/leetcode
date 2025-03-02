@@ -1,0 +1,20 @@
+{
+    "1": {
+        "title": "Two Sum",
+        "link": "two-sum/solution.py",
+        "tags": ["#array", "#hash-table"],
+        "completed": true
+    },
+    "2": {
+        "title": "Add Two Numbers",
+        "link": "add-two-numbers/solution.py",
+        "tags": ["#linked-list", "#math"],
+        "completed": true
+    },
+    "3": {
+        "title": "Longest Substring Without Repeating Characters",
+        "link": "longest-substring/solution.py",
+        "tags": ["#string", "#sliding-window"],
+        "completed": false
+    }
+}
