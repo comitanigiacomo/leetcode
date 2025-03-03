@@ -44,8 +44,9 @@ def get_tag_badges(tags):
     }
     
     return " ".join(
-        f"![{tag}](https://img.shields.io/badge/-{tag.replace(' ', '_')}-{tag_colors.get(tag, 'lightgrey')})"
+        f"![{tag}](https://img.shields.io/badge/-{tag.replace(' ', '_').lower()}-{tag_colors.get(tag, 'lightgrey')})"
         for tag in tags
+        if tag in tag_colors
     )
 
 def generate_table(progress):
