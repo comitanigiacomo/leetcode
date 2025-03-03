@@ -6,5 +6,21 @@
         "difficulty": "easy",
         "solution": "problems/9.palindrome.number/Solution.py",
         "explanation": ""
+    },
+    "13": {
+        "title": "Roman to integer",
+        "link": "https://leetcode.com/problems/roman-to-integer/description/",
+        "tags": ["Hash Table", "Math", "String"],
+        "difficulty": "easy",
+        "solution": "problems/13.roman.to.integer/Solution.py",
+        "explanation": ""
+    },
+    "19": {
+        "title": "Remove nth node from end of list",
+        "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/",
+        "tags": ["Linked List", "Two Pointers"],
+        "difficulty": "medium",
+        "solution": "problems/19.remove.nth.node.from.end.of.list/Solution.py",
+        "explanation": ""
     }
 }
