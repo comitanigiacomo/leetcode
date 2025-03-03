@@ -16,5 +16,3 @@ class Solution:
 nums = [9,12,5,10,14,3,10]
 pivot = 10
 print(Solution().pivotArray(nums, pivot))
-
-# Occhio che in realta sta chiedendo prima parte del quicksort
