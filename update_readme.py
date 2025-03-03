@@ -13,7 +13,7 @@ def get_difficulty_badge(difficulty):
     badges = {
         "easy": "![Easy](https://img.shields.io/badge/-Easy-brightgreen)",
         "medium": "![Medium](https://img.shields.io/badge/-Medium-orange)",
-        "hard": "![Hard](https://img.shields.io/badge/-Hard-red)"
+        "hard": "![Hard](https://img.shields.io/badge/-Hard-darkred)"
     }
     return badges.get(difficulty.lower(), "")
 
