@@ -1,6 +1,7 @@
 {
     "9": {
         "title": "Palindrome Number",
+        "link": "https://leetcode.com/problems/palindrome-number/description/",
         "tags": ["greedy", "math"],
         "difficulty": "easy",
         "solution": "problems/9.palindrome.number/Solution.py",
