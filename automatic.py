@@ -31,14 +31,13 @@ def get_difficulty_and_tags(problem_name):
     return difficulty, tags
 
 # Funzione per aggiornare un problema nel JSON
-def update_challenge(data, challenge_id, title, link, tags, difficulty, solution, explanation=""):
+def update_challenge(data, challenge_id, title, link, tags, difficulty, solution):
     data[challenge_id] = {
         "title": title,
         "link": link,
         "tags": tags,
         "difficulty": difficulty,
-        "solution": solution,
-        "explanation": explanation
+        "solution": solution
     }
 
 # Funzione principale per iterare sulle cartelle e aggiornare il JSON
