@@ -2,7 +2,7 @@
     "9": {
         "title": "Palindrome Number",
         "link": "https://leetcode.com/problems/palindrome-number/description/",
-        "tags": ["math"],
+        "tags": ["Math"],
         "difficulty": "easy",
         "solution": "problems/9.palindrome.number/Solution.py",
         "explanation": ""

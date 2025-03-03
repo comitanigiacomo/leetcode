@@ -92,7 +92,7 @@ def get_tag_badges(tags):
         "Biconnected Component": "beige"
     }
     return " ".join(
-        f"<center>![{tag}](https://img.shields.io/badge/-{tag.replace('#','')}-{tag_colors.get(tag.lower(), 'lightgrey')})</center>"
+        f"<center>![{tag}](https://img.shields.io/badge/-{tag.replace('#','')}-{tag_colors.get(tag, 'lightgrey')})</center>"
         for tag in tags
     )
 
