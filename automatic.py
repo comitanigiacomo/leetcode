@@ -72,7 +72,15 @@ def main():
             link = f"https://leetcode.com/problems/{'.'.join(folder_name.split('.')[1:]).replace('.', '-')}/description/"
 
             # Nome della soluzione
-            solution = f"problems/{folder_name}/Solution.py"
+            # Cerca automaticamente il file Solution con qualsiasi estensione
+            solution_file = None
+            for file in os.listdir(folder_path):
+                if file.startswith("Solution."):
+                    solution_file = file
+                    break
+
+            # Se trovi un file di soluzione, costruisci il percorso
+            solution = f"problems/{folder_name}/{solution_file}" if solution_file else "Unknown"
 
             # Ottieni difficoltà e tag
             try:
