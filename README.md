@@ -5,12 +5,9 @@ Welcome to my repository of LeetCode problem solutions. Here, you can find my so
 You can view my LeetCode account by clicking [here](https://leetcode.com/GiacomoLeetCode/)
 ### LeetCode Progress Tracker 📅
 
-| Problem ID | Title | Difficulty | Solution | Explanation |
-|------------|-------|------|----------|-------------|
-| 1903 | Largest Odd Number in String | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [My Solution](problems/1903.largest.odd.number.in.string/largestOddNumber.py) | [Explanation](https://leetcode.com/problems/largest-odd-number-in-string/solutions/4375194/easiest-solution-by-giacomoleetcode-xixl//) |
-| 2 | Add Two Numbers | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [My Solution](add-two-numbers/solution.py) | [Explanation](https://leetcode.com/problems/two-sum//) |
-| 3 | Longest Substring Without Repeating Characters | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [My Solution](longest-substring/solution.py) | [Explanation](https://leetcode.com/problems/two-sum//) |
-| 4 | Longest Substring Without Repeating Characters | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [My Solution](longest-substring/solution.py) | [Explanation](https://leetcode.com/problems/two-sum//) |
+|🎯 Problem ID |📌 Title |🏷️ Tags |⚡ Difficulty |📝 Solution | 📖Explanation |
+|--------------|---------|--------|--------------|------------|----------------|
+| 9 | Palindrome Number | ['greedy', 'math'] | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [solution](problems/9.palindrome.number/Solution.py) | [explanation](/) |
 
 
 

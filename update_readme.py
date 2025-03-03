@@ -16,20 +16,34 @@ def get_difficulty_badge(difficulty):
     }
     return badges.get(difficulty.lower(), "")
 
+def get_tag_badges(tags):
+    tag_colors = {
+        "string": "blue",
+        "greedy": "yellow",
+        "dp": "ff69b4",
+        "graph": "purple",
+        "math": "green",
+    }
+    return " ".join(
+        f"![{tag}](https://img.shields.io/badge/-{tag.replace('#','')}-{tag_colors.get(tag.lower(), 'lightgrey')})"
+        for tag in tags
+    )
+
 # Funzione per generare la tabella da inserire nel README
 def generate_table(progress):
     table_header = "### LeetCode Progress Tracker 📅\n\n"
-    table_header += "| Problem ID | Title | Difficulty | Solution | Explanation |\n"
-    table_header += "|------------|-------|------|----------|-------------|\n"
+    table_header += "|🎯 Problem ID |📌 Title |🏷️ Tags |⚡ Difficulty |📝 Solution | 📖Explanation |\n"
+    table_header += "|--------------|---------|--------|--------------|------------|----------------|\n"
 
     table_rows = ""
     for problem_id, data in progress.items():
         title = data["title"]
-        link = f"[My Solution]({data['mylink']})"
+        tags = data["tags"]
         difficulty_badge = get_difficulty_badge(data.get("difficulty", ""))
-        leetcode = f"[Explanation]({data['leetcodelink']}/)"
+        solution = f"[solution]({data['solution']})"
+        explanation = f"[explanation]({data['explanation']}/)"
 
-        table_rows += f"| {problem_id} | {title} | {difficulty_badge} | {link} | {leetcode} |\n"
+        table_rows += f"| {problem_id} | {title} | {tags} | {difficulty_badge} | {solution} | {explanation} |\n"
 
     return table_header + table_rows
 

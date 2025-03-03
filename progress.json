@@ -1,28 +1,9 @@
 {
-    "1903": {
-        "title": "Largest Odd Number in String",
-        "mylink": "problems/1903.largest.odd.number.in.string/largestOddNumber.py",
+    "9": {
+        "title": "Palindrome Number",
+        "tags": ["greedy", "math"],
         "difficulty": "easy",
-        "leetcodelink": "https://leetcode.com/problems/largest-odd-number-in-string/solutions/4375194/easiest-solution-by-giacomoleetcode-xixl/"
-    },
-    "2": {
-        "title": "Add Two Numbers",
-        "mylink": "add-two-numbers/solution.py",
-        "difficulty": "easy",
-        "leetcodelink": "https://leetcode.com/problems/two-sum/"
-        
-    },
-    "3": {
-        "title": "Longest Substring Without Repeating Characters",
-        "mylink": "longest-substring/solution.py",
-        "difficulty": "easy",
-        "leetcodelink": "https://leetcode.com/problems/two-sum/"
-        
-    },
-    "4": {
-        "title": "Longest Substring Without Repeating Characters",
-        "mylink": "longest-substring/solution.py",
-        "difficulty": "easy",
-        "leetcodelink": "https://leetcode.com/problems/two-sum/"
+        "solution": "problems/9.palindrome.number/Solution.py",
+        "explanation": ""
     }
 }
