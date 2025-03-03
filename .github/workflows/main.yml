@@ -30,8 +30,15 @@ jobs:
       - name: Run update_readme.py
         run: python update_readme.py
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add README.md
           git commit -m "Update README with progress" || echo "No changes to commit"
-          git push origin main
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/comitanigiacomo/leetcode.git main
