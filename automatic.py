@@ -1,7 +1,12 @@
 import os
 import json
+import re
 import requests
-from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+
 
 # Funzione per caricare il file JSON esistente
 def load_json(filename):
@@ -14,19 +19,36 @@ def save_json(data, filename):
         json.dump(data, f, indent=4)
 
 # Funzione per ottenere la difficoltà e i tag da LeetCode
+
 def get_difficulty_and_tags(problem_name):
-    url = f"https://leetcode.com/problems/{problem_name}/description/"
-    response = requests.get(url)
-
+    # Converti il nome in formato URL-friendly
+    problem_name = problem_name.lower().replace(' ', '-')
     
-    soup = BeautifulSoup(response.text, 'html.parser')
+    # Dati per la richiesta GraphQL
+    data = {
+        "operationName": "questionData",
+        "variables": {"titleSlug": problem_name},
+        "query": """
+        query questionData($titleSlug: String!) {
+            question(titleSlug: $titleSlug) {
+                difficulty
+                topicTags {
+                    name
+                    slug
+                }
+            }
+        }
+        """
+    }
 
-    # Trova la difficoltà
-    difficulty_div = soup.find('div', {'class': 'difficulty'})
-    difficulty = difficulty_div.text.strip() if difficulty_div else "Unknown"
+    # Invia la richiesta POST per ottenere i dati
+    r = requests.post('https://leetcode.com/graphql', json=data).json()
 
-    # Trova i tag
-    tags = [tag.text.strip() for tag in soup.find_all('a', {'class': 'tag__2hMI5H'})]
+    # Estrazione della difficoltà
+    difficulty = r['data']['question']['difficulty'] if 'difficulty' in r['data']['question'] else "Unknown"
+
+    # Estrazione dei tag
+    tags = [tag['name'] for tag in r['data']['question']['topicTags']] if 'topicTags' in r['data']['question'] else []
 
     return difficulty, tags
 
