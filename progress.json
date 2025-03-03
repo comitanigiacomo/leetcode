@@ -21,6 +21,6 @@
         "tags": ["Linked List", "Two Pointers"],
         "difficulty": "medium",
         "solution": "problems/19.remove.nth.node.from.end.of.list/Solution.py",
-        "explanation": ""
+        "explanation": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/solutions/4817192/easy-solution-by-giacomoleetcode-kxpu/"
     }
 }
