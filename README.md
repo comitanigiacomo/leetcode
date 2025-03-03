@@ -5,7 +5,7 @@ Welcome to my repository of LeetCode problem solutions. Here, you can find my so
 You can view my LeetCode account by clicking [here](https://leetcode.com/GiacomoLeetCode/)
 ### LeetCode Progress Tracker 📅
 |🎯 Problem ID |📌 Title |🏷️ Tags |⚡ Difficulty |📝 Solution | 📖Explanation |
-|:------------:|:-------:|:------:|:------------:|:----------:|:--------------:|
+|--------------|---------|--------|--------------|------------|----------------|
 | 2849 | [determine if a cell is reachable at a given time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/description//) |  |  | [solution](problems/2849.determine.if.a.cell.is.reachable.at.a.given.time/Solution.py) | <center>❌</center> |
 | 2785 | [sort vowels in a string](https://leetcode.com/problems/sort-vowels-in-a-string/description//) |  |  | [solution](problems/2785.sort.vowels.in.a.string/Solution.py) | <center>❌</center> |
 | 2433 | [find the original array of prefix xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description//) |  |  | [solution](problems/2433.find.the.original.array.of.prefix.xor/Solution.py) | <center>❌</center> |
@@ -190,16 +190,8 @@ You can view my LeetCode account by clicking [here](https://leetcode.com/Giacomo
 | 921 | [minimum add to make parentheses valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description//) |  |  | [solution](problems/921.minimum.add.to.make.parentheses.valid/Solution.py) | <center>❌</center> |
 | 962 | [maximum width ramp](https://leetcode.com/problems/maximum-width-ramp/description//) |  |  | [solution](problems/962.maximum.width.ramp/Solution.py) | <center>❌</center> |
 | 2914 | [minimum number of changes to make binary string beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/description//) |  |  | [solution](problems/2914.minimum.number.of.changes.to.make.binary.string.beautiful/Solution.py) | <center>❌</center> |
-| 3011FindifArrayCanBeSorted | [](https://leetcode.com/problems//description//) |  |  | [solution](problems/3011FindifArrayCanBeSorted/Solution.py) | <center>❌</center> |
 | 3254 | [FindThePowerofK-SizeSubarraysI ](https://leetcode.com/problems/FindThePowerofK-SizeSubarraysI /description//) |  |  | [solution](problems/3254.FindThePowerofK-SizeSubarraysI /Solution.py) | <center>❌</center> |
-| 1652DefuseTheBomb | [](https://leetcode.com/problems//description//) |  |  | [solution](problems/1652DefuseTheBomb/Solution.py) | <center>❌</center> |
-| 2461MaximumSumofDistinctSubarraysWithLengthK | [](https://leetcode.com/problems//description//) |  |  | [solution](problems/2461MaximumSumofDistinctSubarraysWithLengthK/Solution.py) | <center>❌</center> |
-| 2516TakeKofEachCharacterFromLeftandRight | [](https://leetcode.com/problems//description//) |  |  | [solution](problems/2516TakeKofEachCharacterFromLeftandRight/Solution.py) | <center>❌</center> |
 | 2684 | [maximum number of moves in a grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/description//) |  |  | [solution](problems/2684.maximum.number.of.moves.in.a.grid/Solution.py) | <center>❌</center> |
-| 1346CheckIfNAndItsDoubleExist | [](https://leetcode.com/problems//description//) |  |  | [solution](problems/1346CheckIfNAndItsDoubleExist/Solution.py) | <center>❌</center> |
-| 1455CheckIfAWordOccursAsAPrefixOfAnyWordInASentence | [](https://leetcode.com/problems//description//) |  |  | [solution](problems/1455CheckIfAWordOccursAsAPrefixOfAnyWordInASentence/Solution.py) | <center>❌</center> |
-| 2109AddingSpacesToAstring | [](https://leetcode.com/problems//description//) |  |  | [solution](problems/2109AddingSpacesToAstring/Solution.py) | <center>❌</center> |
-| 2825MakeAstringAsubsequenceUsingCyclicIncrements | [](https://leetcode.com/problems//description//) |  |  | [solution](problems/2825MakeAstringAsubsequenceUsingCyclicIncrements/Solution.py) | <center>❌</center> |
 | 1415 | [the k-th lexicographical string of all happy strings of length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description//) |  |  | [solution](problems/1415.the.k-th.lexicographical.string.of.all.happy.strings.of.length.n/Solution.py) | <center>❌</center> |
 | 1980 | [find unique binary string](https://leetcode.com/problems/find-unique-binary-string/description//) |  |  | [solution](problems/1980.find.unique.binary.string/Solution.py) | <center>❌</center> |
 | 1261 | [find elements in a contaminated binary tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/description//) |  |  | [solution](problems/1261.find.elements.in.a.contaminated.binary.tree/Solution.py) | <center>❌</center> |
@@ -207,6 +199,14 @@ You can view my LeetCode account by clicking [here](https://leetcode.com/Giacomo
 | 2460 | [apply operations to an array](https://leetcode.com/problems/apply-operations-to-an-array/description//) |  |  | [solution](problems/2460.apply.operations.to.an.array/Solution.py) | <center>❌</center> |
 | 2570 | [merge two 2D arrays by summing values](https://leetcode.com/problems/merge-two-2D-arrays-by-summing-values/description//) |  |  | [solution](problems/2570.merge.two.2D.arrays.by.summing.values/Solution.py) | <center>❌</center> |
 | 2161 | [partition array according to given pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description//) |  |  | [solution](problems/2161.partition.array.according.to.given.pivot/Solution.py) | <center>❌</center> |
+| 3011 | [find if array can be sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/description//) |  |  | [solution](problems/3011.find.if.array.can.be.sorted/Solution.py) | <center>❌</center> |
+| 1652 | [defuse the bomb](https://leetcode.com/problems/defuse-the-bomb/description//) |  |  | [solution](problems/1652.defuse.the.bomb/Solution.py) | <center>❌</center> |
+| 2461 | [maximum sum of distinct subarrays with length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-K/description//) |  |  | [solution](problems/2461.maximum.sum.of.distinct.subarrays.with.length.K/Solution.py) | <center>❌</center> |
+| 2516 | [take k of each character from left and right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/description//) |  |  | [solution](problems/2516.take.k.of.each.character.from.left.and.right/Solution.py) | <center>❌</center> |
+| 1346 | [check if n and its double exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description//) |  |  | [solution](problems/1346.check.if.n.and.its.double.exist/Solution.py) | <center>❌</center> |
+| 1455 | [check if a word occurs as a prefix of any word in a sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description//) |  |  | [solution](problems/1455.check.if.a.word.occurs.as.a.prefix.of.any.word.in.a.sentence/Solution.py) | <center>❌</center> |
+| 2109 | [adding spaces to a string](https://leetcode.com/problems/adding-spaces-to-a-string/description//) |  |  | [solution](problems/2109.adding.spaces.to.a.string/Solution.py) | <center>❌</center> |
+| 2825 | [make a string a subsequence using cyclic increments](https://leetcode.com/problems/make-a-string-a-subsequence-using-cyclic-increments/description//) |  |  | [solution](problems/2825.make.a.string.a.subsequence.using.cyclic.increments/Solution.py) | <center>❌</center> |
 
 
 # Badges: 

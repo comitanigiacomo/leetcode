@@ -1,4 +1,3 @@
-from audioop import reverse
 from collections import Counter
 
 
@@ -20,7 +19,7 @@ class Solution:
                 count[ord(s[l]) - ord('a')] += 1
                 l += 1
             res = min(res, len(s) - (r - l + 1))
-        return res
+        return 0
 
 
 s = "aabaaaacaabc"

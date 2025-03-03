@@ -1471,14 +1471,6 @@
         "solution": "problems/2914.minimum.number.of.changes.to.make.binary.string.beautiful/Solution.py",
         "explanation": ""
     },
-    "3011FindifArrayCanBeSorted": {
-        "title": "",
-        "link": "https://leetcode.com/problems//description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/3011FindifArrayCanBeSorted/Solution.py",
-        "explanation": ""
-    },
     "3254": {
         "title": "FindThePowerofK-SizeSubarraysI ",
         "link": "https://leetcode.com/problems/FindThePowerofK-SizeSubarraysI /description/",
@@ -1487,68 +1479,12 @@
         "solution": "problems/3254.FindThePowerofK-SizeSubarraysI /Solution.py",
         "explanation": ""
     },
-    "1652DefuseTheBomb": {
-        "title": "",
-        "link": "https://leetcode.com/problems//description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/1652DefuseTheBomb/Solution.py",
-        "explanation": ""
-    },
-    "2461MaximumSumofDistinctSubarraysWithLengthK": {
-        "title": "",
-        "link": "https://leetcode.com/problems//description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/2461MaximumSumofDistinctSubarraysWithLengthK/Solution.py",
-        "explanation": ""
-    },
-    "2516TakeKofEachCharacterFromLeftandRight": {
-        "title": "",
-        "link": "https://leetcode.com/problems//description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/2516TakeKofEachCharacterFromLeftandRight/Solution.py",
-        "explanation": ""
-    },
     "2684": {
         "title": "maximum number of moves in a grid",
         "link": "https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/description/",
         "tags": [],
         "difficulty": "Unknown",
         "solution": "problems/2684.maximum.number.of.moves.in.a.grid/Solution.py",
-        "explanation": ""
-    },
-    "1346CheckIfNAndItsDoubleExist": {
-        "title": "",
-        "link": "https://leetcode.com/problems//description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/1346CheckIfNAndItsDoubleExist/Solution.py",
-        "explanation": ""
-    },
-    "1455CheckIfAWordOccursAsAPrefixOfAnyWordInASentence": {
-        "title": "",
-        "link": "https://leetcode.com/problems//description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/1455CheckIfAWordOccursAsAPrefixOfAnyWordInASentence/Solution.py",
-        "explanation": ""
-    },
-    "2109AddingSpacesToAstring": {
-        "title": "",
-        "link": "https://leetcode.com/problems//description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/2109AddingSpacesToAstring/Solution.py",
-        "explanation": ""
-    },
-    "2825MakeAstringAsubsequenceUsingCyclicIncrements": {
-        "title": "",
-        "link": "https://leetcode.com/problems//description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/2825MakeAstringAsubsequenceUsingCyclicIncrements/Solution.py",
         "explanation": ""
     },
     "1415": {
@@ -1605,6 +1541,70 @@
         "tags": [],
         "difficulty": "Unknown",
         "solution": "problems/2161.partition.array.according.to.given.pivot/Solution.py",
+        "explanation": ""
+    },
+    "3011": {
+        "title": "find if array can be sorted",
+        "link": "https://leetcode.com/problems/find-if-array-can-be-sorted/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/3011.find.if.array.can.be.sorted/Solution.py",
+        "explanation": ""
+    },
+    "1652": {
+        "title": "defuse the bomb",
+        "link": "https://leetcode.com/problems/defuse-the-bomb/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1652.defuse.the.bomb/Solution.py",
+        "explanation": ""
+    },
+    "2461": {
+        "title": "maximum sum of distinct subarrays with length K",
+        "link": "https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-K/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2461.maximum.sum.of.distinct.subarrays.with.length.K/Solution.py",
+        "explanation": ""
+    },
+    "2516": {
+        "title": "take k of each character from left and right",
+        "link": "https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2516.take.k.of.each.character.from.left.and.right/Solution.py",
+        "explanation": ""
+    },
+    "1346": {
+        "title": "check if n and its double exist",
+        "link": "https://leetcode.com/problems/check-if-n-and-its-double-exist/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1346.check.if.n.and.its.double.exist/Solution.py",
+        "explanation": ""
+    },
+    "1455": {
+        "title": "check if a word occurs as a prefix of any word in a sentence",
+        "link": "https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1455.check.if.a.word.occurs.as.a.prefix.of.any.word.in.a.sentence/Solution.py",
+        "explanation": ""
+    },
+    "2109": {
+        "title": "adding spaces to a string",
+        "link": "https://leetcode.com/problems/adding-spaces-to-a-string/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2109.adding.spaces.to.a.string/Solution.py",
+        "explanation": ""
+    },
+    "2825": {
+        "title": "make a string a subsequence using cyclic increments",
+        "link": "https://leetcode.com/problems/make-a-string-a-subsequence-using-cyclic-increments/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2825.make.a.string.a.subsequence.using.cyclic.increments/Solution.py",
         "explanation": ""
     }
 }
