@@ -52,7 +52,7 @@ def get_tag_badges(tags):
 def generate_table(progress):
     table_header = "### LeetCode Progress Tracker 📅\n"
     table_header += "|🎯 Problem ID |📌 Title |🏷️ Tags |⚡ Difficulty |📝 Solution |\n"
-    table_header += "|--------------|---------|--------|--------------|------------|\n"
+    table_header += "|:------------:|---------|:------:|:------------:|:----------:|\n"
 
     table_rows = ""
     for problem_id, data in progress.items():

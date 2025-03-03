@@ -5,7 +5,7 @@ Welcome to my repository of LeetCode problem solutions. Here, you can find my so
 You can view my LeetCode account by clicking [here](https://leetcode.com/GiacomoLeetCode/)
 ### LeetCode Progress Tracker 📅
 |🎯 Problem ID |📌 Title |🏷️ Tags |⚡ Difficulty |📝 Solution |
-|--------------|---------|--------|--------------|------------|
+|:------------:|---------|:------:|:------------:|:----------:|
 | 2849 | [determine if a cell is reachable at a given time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/description//) | ![Math](https://img.shields.io/badge/-math-purple) | ![Medium](https://img.shields.io/badge/-Medium-orange) | [solution](problems/2849.determine.if.a.cell.is.reachable.at.a.given.time/Solution.go)|
 | 2785 | [sort vowels in a string](https://leetcode.com/problems/sort-vowels-in-a-string/description//) | ![String](https://img.shields.io/badge/-string-green) ![Sorting](https://img.shields.io/badge/-sorting-yellow) | ![Medium](https://img.shields.io/badge/-Medium-orange) | [solution](problems/2785.sort.vowels.in.a.string/Solution.go)|
 | 2433 | [find the original array of prefix xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description//) | ![Array](https://img.shields.io/badge/-array-blue) ![Bit Manipulation](https://img.shields.io/badge/-bit_manipulation-darkgreen) | ![Medium](https://img.shields.io/badge/-Medium-orange) | [solution](problems/2433.find.the.original.array.of.prefix.xor/Solution.go)|
