@@ -207,7 +207,7 @@ You can view my LeetCode account by clicking [here](https://leetcode.com/Giacomo
 
 # Solutions
 
-Di seguito una lista di alcune soluzioni che ho pubblicato su leetcode:
+Here’s a list of some solutions on LeetCode, along with my thought process for each problem
 
 - [948.bag.of.tokens](https://leetcode.com/problems/bag-of-tokens/solutions/4822671/easy-solution-beats-99-by-giacomoleetcod-u0mi/)
 - [791.custom.sort.string](https://leetcode.com/problems/custom-sort-string/solutions/4858774/readability-or-efficiency-by-giacomoleet-tmxr/)
