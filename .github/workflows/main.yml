@@ -1,0 +1,37 @@
+name: Update LeetCode Progress and README
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-progress:
+    runs-on: ubuntu-latest
+
+    steps:
+      
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt  # Se hai un file requirements.txt con le dipendenze
+
+      - name: Run automatic.py
+        run: python automatic.py
+
+      - name: Run update_readme.py
+        run: python update_readme.py
+
+      - name: Commit and push changes
+        run: |
+          git add README.md
+          git commit -m "Update README with progress" || echo "No changes to commit"
+          git push origin main
