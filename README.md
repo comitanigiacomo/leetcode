@@ -205,6 +205,40 @@ You can view my LeetCode account by clicking [here](https://leetcode.com/Giacomo
 | 1662 | [check if two string arrays are equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description//) | ![Array](https://img.shields.io/badge/-array-blue) ![String](https://img.shields.io/badge/-string-green) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [solution](problems/1662.check.if.two.string.arrays.are.equivalent/Solution.py)|
 | 2058 | [find the minimum and maximum number of nodes between critical points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description//) | ![Linked List](https://img.shields.io/badge/-linked_list-lavender) | ![Medium](https://img.shields.io/badge/-Medium-orange) | [solution](problems/2058.find.the.minimum.and.maximum.number.of.nodes.between.critical.points/Solution.py)|
 
+# Solutions
+
+Di seguito una lista di alcune soluzioni che ho pubblicato su leetcode:
+
+- [1903.largest.odd.number.in.string](https://leetcode.com/problems/largest-odd-number-in-string/solutions/4375194/easiest-solution-by-giacomoleetcode-xixl/)
+- [606.construct.string.from.binary.tree](https://leetcode.com/problems/construct-string-from-binary-tree/solutions/4378018/easy-solution-by-giacomoleetcode-96wb/)
+- [94.binary.tree.inorder.trasversal](https://leetcode.com/problems/binary-tree-inorder-traversal/solutions/4382363/easy-solution-by-giacomoleetcode-d3lb/)
+- [1704.determine.if.string.halves.are.alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/solutions/4551602/easy-solution-by-giacomoleetcode-5bu0/)
+- [931.minimum.falling.path.sum](https://leetcode.com/problems/minimum-falling-path-sum/solutions/4592019/easy-python-solution-by-giacomoleetcode-0otg/)
+- [2108.find.first.palindromic.string.in.the.array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/solutions/4719806/easiest-approach-by-giacomoleetcode-mlfv/)
+- [513.find.bottom.left.tree.value](https://leetcode.com/problems/find-bottom-left-tree-value/solutions/4794203/easy-solution-by-giacomoleetcode-hrzb/)
+- [2864.maximum.odd.binary.number](https://leetcode.com/problems/maximum-odd-binary-number/solutions/4804732/easy-solution-by-giacomoleetcode-wro1/)
+- [19.remove.nth.node.from.end.of.list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/solutions/4817192/easy-solution-by-giacomoleetcode-kxpu/)
+- [948.bag.of.tokens](https://leetcode.com/problems/bag-of-tokens/solutions/4822671/easy-solution-beats-99-by-giacomoleetcod-u0mi/)
+- [791.custom.sort.string](https://leetcode.com/problems/custom-sort-string/solutions/4858774/readability-or-efficiency-by-giacomoleet-tmxr/)
+- [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/solutions/5366439/easy-solution-by-giacomoleetcode-38zv/)
+- [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/solutions/5381690/easy-solution-by-giacomoleetcode-e7ip/)
+- [2460. Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/solutions/6483184/easy-solution-by-giacomoleetcode-w8cs/)
+- [2570. Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/solutions/6486711/easy-solution-by-giacomoleetcode-9tog/)
+- [1441. Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/solutions/4243274/daily-leetcode-challenge-by-giacomoleetc-9adi/)
+- [1503.last.moment.before.all.ants.fall.out.of.a.plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/solutions/4248050/easy-solution-by-giacomoleetcode-vhl7/)
+- [1845.seat.reservation.manager](https://leetcode.com/problems/seat-reservation-manager/solutions/4256006/easy-solution-by-giacomoleetcode-ykcd/)
+- [2849.determine.if.a.cell.is.reachable.at.a.given.time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/solutions/4264712/easy-solution-by-giacomoleetcode-koby/)
+- [2785.sort.vowels.in.a.string](https://leetcode.com/problems/sort-vowels-in-a-string/solutions/4282793/easy-go-solution-by-giacomoleetcode-cf50/)
+- [1846.maximum.element.after.decreasing.and.rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/solutions/4291340/easy-go-solution-by-giacomoleetcode-2dyn/)
+- [1877.minimize.maximum.pair.sum.in.array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/solutions/4298419/easy-solution-by-giacomoleetcode-igoo/)
+- [1838.frequency.of.the.most.frequent.element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/solutions/4302242/sliding-window-approach-by-giacomoleetco-v2op/)
+- [1887.reduction.operations.to.make.the.array.elements.equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/solutions/4306474/easy-go-solution-beats-100-in-space-and-wdkfz/)
+- [2391.minimum.amount.of.time.to.collect.garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/solutions/4309138/easy-golang-solution-by-giacomoleetcode-s64j/)
+- [1814.count.nice.paris.in.an.array](https://leetcode.com/problems/count-nice-pairs-in-an-array/solutions/4313185/my-pyhton-solution-by-giacomoleetcode-xe35/)
+- [1424.diagonal.traverse.II](https://leetcode.com/problems/diagonal-traverse-ii/solutions/4317100/easy-go-solution-by-giacomoleetcode-ehja/)
+- [1561.maximum.number.of.coins.you.can.get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/solutions/4324178/easy-solution-by-giacomoleetcode-fzrd/)
+- [1727.largest.submatrix.with.rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/solutions/4332819/easy-solution-by-giacomoleetcode-6yje/)
+- [191.number.of.1.bits](https://leetcode.com/problems/number-of-1-bits/solutions/4342555/easy-solution-by-giacomoleetcode-exu2/)
 
 # Badges: 
 
