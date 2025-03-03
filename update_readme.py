@@ -38,7 +38,7 @@ def generate_table(progress):
     table_rows = ""
     for problem_id, data in progress.items():
         title = data["title"]
-        tags = data["tags"]
+        tags = get_tag_badges(data["tags"])
         difficulty_badge = get_difficulty_badge(data.get("difficulty", ""))
         solution = f"[solution]({data['solution']})"
         explanation = f"[explanation]({data['explanation']}/)"

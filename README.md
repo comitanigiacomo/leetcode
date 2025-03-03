@@ -7,6 +7,10 @@ You can view my LeetCode account by clicking [here](https://leetcode.com/Giacomo
 
 |🎯 Problem ID |📌 Title |🏷️ Tags |⚡ Difficulty |📝 Solution | 📖Explanation |
 |--------------|---------|--------|--------------|------------|----------------|
+| 9 | Palindrome Number | ![greedy](https://img.shields.io/badge/-greedy-yellow) ![math](https://img.shields.io/badge/-math-green) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [solution](problems/9.palindrome.number/Solution.py) | [explanation](/) |
+
+|🎯 Problem ID |📌 Title |🏷️ Tags |⚡ Difficulty |📝 Solution | 📖Explanation |
+|--------------|---------|--------|--------------|------------|----------------|
 | 9 | Palindrome Number | ['greedy', 'math'] | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [solution](problems/9.palindrome.number/Solution.py) | [explanation](/) |
 
 
