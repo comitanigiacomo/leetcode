@@ -223,14 +223,6 @@
         "solution": "problems/1611.minimum.one.bit.operations.to.make.integers.zero/Solution.py",
         "explanation": ""
     },
-    "1662": {
-        "title": "check  If  two string arrays are equivalent",
-        "link": "https://leetcode.com/problems/check -If -two-string-arrays-are-equivalent/description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/1662.check .If .two.string.arrays.are.equivalent/Solution.py",
-        "explanation": ""
-    },
     "1160": {
         "title": "find words that can be formed by characters",
         "link": "https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description/",
@@ -1471,14 +1463,6 @@
         "solution": "problems/2914.minimum.number.of.changes.to.make.binary.string.beautiful/Solution.py",
         "explanation": ""
     },
-    "3254": {
-        "title": "FindThePowerofK-SizeSubarraysI ",
-        "link": "https://leetcode.com/problems/FindThePowerofK-SizeSubarraysI /description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/3254.FindThePowerofK-SizeSubarraysI /Solution.py",
-        "explanation": ""
-    },
     "2684": {
         "title": "maximum number of moves in a grid",
         "link": "https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/description/",
@@ -1605,6 +1589,22 @@
         "tags": [],
         "difficulty": "Unknown",
         "solution": "problems/2825.make.a.string.a.subsequence.using.cyclic.increments/Solution.py",
+        "explanation": ""
+    },
+    "3254": {
+        "title": "find the power of k size subarrays i",
+        "link": "https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/3254.find.the.power.of.k.size.subarrays.i/Solution.py",
+        "explanation": ""
+    },
+    "1662": {
+        "title": "check if two string arrays are equivalent",
+        "link": "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1662.check.if.two.string.arrays.are.equivalent/Solution.py",
         "explanation": ""
     }
 }

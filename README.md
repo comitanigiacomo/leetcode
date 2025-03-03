@@ -34,7 +34,6 @@ You can view my LeetCode account by clicking [here](https://leetcode.com/Giacomo
 | 191 | [number of 1 bits](https://leetcode.com/problems/number-of-1-bits/description//) |  |  | [solution](problems/191.number.of.1.bits/Solution.py) | <center>❌</center> |
 | 1685 | [sum of absolute differences in sorted array](https://leetcode.com/problems/sum-of-absolute-differences-in-sorted-array/description//) |  |  | [solution](problems/1685.sum.of.absolute.differences.in.sorted.array/Solution.py) | <center>❌</center> |
 | 1611 | [minimum one bit operations to make integers zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/description//) |  |  | [solution](problems/1611.minimum.one.bit.operations.to.make.integers.zero/Solution.py) | <center>❌</center> |
-| 1662 | [check  If  two string arrays are equivalent](https://leetcode.com/problems/check -If -two-string-arrays-are-equivalent/description//) |  |  | [solution](problems/1662.check .If .two.string.arrays.are.equivalent/Solution.py) | <center>❌</center> |
 | 1160 | [find words that can be formed by characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description//) |  |  | [solution](problems/1160.find.words.that.can.be.formed.by.characters/Solution.py) | <center>❌</center> |
 | 1266 | [minimum time visiting all points](https://leetcode.com/problems/minimum-time-visiting-all-points/description//) |  |  | [solution](problems/1266.minimum.time.visiting.all.points/Solution.py) | <center>❌</center> |
 | 2264 | [largest 3-same-digit number in string](https://leetcode.com/problems/largest-3-same-digit-number-in-string/description//) |  |  | [solution](problems/2264.largest.3-same-digit.number.in.string/Solution.py) | <center>❌</center> |
@@ -190,7 +189,6 @@ You can view my LeetCode account by clicking [here](https://leetcode.com/Giacomo
 | 921 | [minimum add to make parentheses valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description//) |  |  | [solution](problems/921.minimum.add.to.make.parentheses.valid/Solution.py) | <center>❌</center> |
 | 962 | [maximum width ramp](https://leetcode.com/problems/maximum-width-ramp/description//) |  |  | [solution](problems/962.maximum.width.ramp/Solution.py) | <center>❌</center> |
 | 2914 | [minimum number of changes to make binary string beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/description//) |  |  | [solution](problems/2914.minimum.number.of.changes.to.make.binary.string.beautiful/Solution.py) | <center>❌</center> |
-| 3254 | [FindThePowerofK-SizeSubarraysI ](https://leetcode.com/problems/FindThePowerofK-SizeSubarraysI /description//) |  |  | [solution](problems/3254.FindThePowerofK-SizeSubarraysI /Solution.py) | <center>❌</center> |
 | 2684 | [maximum number of moves in a grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/description//) |  |  | [solution](problems/2684.maximum.number.of.moves.in.a.grid/Solution.py) | <center>❌</center> |
 | 1415 | [the k-th lexicographical string of all happy strings of length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description//) |  |  | [solution](problems/1415.the.k-th.lexicographical.string.of.all.happy.strings.of.length.n/Solution.py) | <center>❌</center> |
 | 1980 | [find unique binary string](https://leetcode.com/problems/find-unique-binary-string/description//) |  |  | [solution](problems/1980.find.unique.binary.string/Solution.py) | <center>❌</center> |
@@ -207,6 +205,8 @@ You can view my LeetCode account by clicking [here](https://leetcode.com/Giacomo
 | 1455 | [check if a word occurs as a prefix of any word in a sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description//) |  |  | [solution](problems/1455.check.if.a.word.occurs.as.a.prefix.of.any.word.in.a.sentence/Solution.py) | <center>❌</center> |
 | 2109 | [adding spaces to a string](https://leetcode.com/problems/adding-spaces-to-a-string/description//) |  |  | [solution](problems/2109.adding.spaces.to.a.string/Solution.py) | <center>❌</center> |
 | 2825 | [make a string a subsequence using cyclic increments](https://leetcode.com/problems/make-a-string-a-subsequence-using-cyclic-increments/description//) |  |  | [solution](problems/2825.make.a.string.a.subsequence.using.cyclic.increments/Solution.py) | <center>❌</center> |
+| 3254 | [find the power of k size subarrays i](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description//) |  |  | [solution](problems/3254.find.the.power.of.k.size.subarrays.i/Solution.py) | <center>❌</center> |
+| 1662 | [check if two string arrays are equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description//) |  |  | [solution](problems/1662.check.if.two.string.arrays.are.equivalent/Solution.py) | <center>❌</center> |
 
 
 # Badges: 
