@@ -7,21 +7,29 @@ PROGRESS_FILE = "progress.json"
 def load_progress(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
+    
+def get_difficulty_badge(difficulty):
+    badges = {
+        "easy": "![Easy](https://img.shields.io/badge/-Easy-brightgreen)",
+        "medium": "![Medium](https://img.shields.io/badge/-Medium-orange)",
+        "hard": "![Hard](https://img.shields.io/badge/-Hard-red)"
+    }
+    return badges.get(difficulty.lower(), "")
 
 # Funzione per generare la tabella da inserire nel README
 def generate_table(progress):
     table_header = "### LeetCode Progress Tracker 📅\n\n"
-    table_header += "| Problem ID | Title | Tags | Solution | Explanation |\n"
+    table_header += "| Problem ID | Title | Difficulty | Solution | Explanation |\n"
     table_header += "|------------|-------|------|----------|-------------|\n"
 
     table_rows = ""
     for problem_id, data in progress.items():
         title = data["title"]
         link = f"[My Solution]({data['mylink']})"
-        tags = " ".join(data["tags"])
+        difficulty_badge = get_difficulty_badge(data.get("difficulty", ""))
         leetcode = f"[Explanation]({data['leetcodelink']}/)"
 
-        table_rows += f"| {problem_id} | {title} | {tags} | {link} | {leetcode} |\n"
+        table_rows += f"| {problem_id} | {title} | {difficulty_badge} | {link} | {leetcode} |\n"
 
     return table_header + table_rows
 

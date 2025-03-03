@@ -2,27 +2,27 @@
     "1903": {
         "title": "Largest Odd Number in String",
         "mylink": "problems/1903.largest.odd.number.in.string/largestOddNumber.py",
-        "tags": ["#string", "#greedy"],
+        "difficulty": "easy",
         "leetcodelink": "https://leetcode.com/problems/largest-odd-number-in-string/solutions/4375194/easiest-solution-by-giacomoleetcode-xixl/"
     },
     "2": {
         "title": "Add Two Numbers",
         "mylink": "add-two-numbers/solution.py",
-        "tags": ["#linked-list", "#math"],
+        "difficulty": "easy",
         "leetcodelink": "https://leetcode.com/problems/two-sum/"
         
     },
     "3": {
         "title": "Longest Substring Without Repeating Characters",
         "mylink": "longest-substring/solution.py",
-        "tags": ["#string", "#sliding-window"],
+        "difficulty": "easy",
         "leetcodelink": "https://leetcode.com/problems/two-sum/"
         
     },
     "4": {
         "title": "Longest Substring Without Repeating Characters",
         "mylink": "longest-substring/solution.py",
-        "tags": ["#string", "#sliding-window"],
+        "difficulty": "easy",
         "leetcodelink": "https://leetcode.com/problems/two-sum/"
     }
 }
