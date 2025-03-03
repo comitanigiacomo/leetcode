@@ -71,7 +71,8 @@ def main():
     data = load_json(json_file)
 
     # Percorso alla root della tua repo
-    repo_path = '/home/giacomocomitani/personale/leetcode/problems'
+    repo_path = os.path.abspath("problems")  # Percorso relativo al repo
+
 
     # Itera su tutte le cartelle del repository
     for folder_name in os.listdir(repo_path):
