@@ -26,14 +26,14 @@ def get_tag_badges(tags):
         "math": "green",
     }
     return " ".join(
-        f"![{tag}](https://img.shields.io/badge/-{tag.replace('#','')}-{tag_colors.get(tag.lower(), 'lightgrey')})"
+        f"<center>![{tag}](https://img.shields.io/badge/-{tag.replace('#','')}-{tag_colors.get(tag.lower(), 'lightgrey')})</center>"
         for tag in tags
     )
 
 def generate_table(progress):
     table_header = "### LeetCode Progress Tracker 📅\n"
     table_header += "|🎯 Problem ID |📌 Title |🏷️ Tags |⚡ Difficulty |📝 Solution | 📖Explanation |\n"
-    table_header += "|--------------|---------|--------|--------------|------------|----------------|\n"
+    table_header += "|:------------:|:-------:|:------:|:------------:|:----------:|:--------------:|\n"
 
     table_rows = ""
     for problem_id, data in progress.items():
@@ -42,7 +42,7 @@ def generate_table(progress):
         tags = get_tag_badges(data["tags"])
         difficulty_badge = get_difficulty_badge(data.get("difficulty", ""))
         solution = f"[solution]({data['solution']})"
-        explanation = f"[explanation]({data['explanation']}/)" if data.get('explanation') else "❌"
+        explanation = f"[explanation]({data['explanation']}/)" if data.get('explanation') else "<center>❌</center>"
 
         table_rows += f"| {problem_id} | {link} | {tags} | {difficulty_badge} | {solution} | {explanation} |\n"
 
