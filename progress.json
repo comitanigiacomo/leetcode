@@ -1,26 +1,1610 @@
 {
+    "2849": {
+        "title": "determine if a cell is reachable at a given time",
+        "link": "https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2849.determine.if.a.cell.is.reachable.at.a.given.time/Solution.py",
+        "explanation": ""
+    },
+    "2785": {
+        "title": "sort vowels in a string",
+        "link": "https://leetcode.com/problems/sort-vowels-in-a-string/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2785.sort.vowels.in.a.string/Solution.py",
+        "explanation": ""
+    },
+    "2433": {
+        "title": "find the original array of prefix xor",
+        "link": "https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2433.find.the.original.array.of.prefix.xor/Solution.py",
+        "explanation": ""
+    },
+    "2391": {
+        "title": "minimum amount of time to collect garbage",
+        "link": "https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2391.minimum.amount.of.time.to.collect.garbage/Solution.py",
+        "explanation": ""
+    },
+    "2265": {
+        "title": "count nodes equal to average of subtree",
+        "link": "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2265.count.nodes.equal.to.average.of.subtree/Solution.py",
+        "explanation": ""
+    },
+    "1930": {
+        "title": "unique lenght-3 palindromic subsequences",
+        "link": "https://leetcode.com/problems/unique-lenght-3-palindromic-subsequences/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1930.unique.lenght-3.palindromic.subsequences/Solution.py",
+        "explanation": ""
+    },
+    "1887": {
+        "title": "reduction operations to make the array elements equal",
+        "link": "https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1887.reduction.operations.to.make.the.array.elements.equal/Solution.py",
+        "explanation": ""
+    },
+    "1877": {
+        "title": "minimize maximum pair sum in array",
+        "link": "https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1877.minimize.maximum.pair.sum.in.array/Solution.py",
+        "explanation": ""
+    },
+    "1846": {
+        "title": "maximum element after decreasing and rearranging",
+        "link": "https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1846.maximum.element.after.decreasing.and.rearranging/Solution.py",
+        "explanation": ""
+    },
+    "1845": {
+        "title": "seat reservation manager",
+        "link": "https://leetcode.com/problems/seat-reservation-manager/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1845.seat.reservation.manager/Solution.py",
+        "explanation": ""
+    },
+    "1838": {
+        "title": "frequency of the most frequent element",
+        "link": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1838.frequency.of.the.most.frequent.element/Solution.py",
+        "explanation": ""
+    },
+    "1833": {
+        "title": "maximum ice cream bars",
+        "link": "https://leetcode.com/problems/maximum-ice-cream-bars/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1833.maximum.ice.cream.bars/Solution.py",
+        "explanation": ""
+    },
+    "1535": {
+        "title": "find the winner of an array game",
+        "link": "https://leetcode.com/problems/find-the-winner-of-an-array-game/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1535.find.the.winner.of.an.array.game/Solution.py",
+        "explanation": ""
+    },
+    "1503": {
+        "title": "last moment before all ants fall out of a plank",
+        "link": "https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1503.last.moment.before.all.ants.fall.out.of.a.plank/Solution.py",
+        "explanation": ""
+    },
+    "1441": {
+        "title": "build an array with stack operation",
+        "link": "https://leetcode.com/problems/build-an-array-with-stack-operation/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1441.build.an.array.with.stack.operation/Solution.py",
+        "explanation": ""
+    },
+    "1356": {
+        "title": "sort integers by the number of 1 bits",
+        "link": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1356.sort.integers.by.the.number.of.1.bits/Solution.py",
+        "explanation": ""
+    },
+    "815": {
+        "title": "bus routes",
+        "link": "https://leetcode.com/problems/bus-routes/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/815.bus.routes/Solution.py",
+        "explanation": ""
+    },
+    "501": {
+        "title": "find mode in binary search tree",
+        "link": "https://leetcode.com/problems/find-mode-in-binary-search-tree/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/501.find.mode.in.binary.search.tree/Solution.py",
+        "explanation": ""
+    },
+    "1814": {
+        "title": "count nice paris in an array",
+        "link": "https://leetcode.com/problems/count-nice-paris-in-an-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1814.count.nice.paris.in.an.array/Solution.py",
+        "explanation": ""
+    },
+    "1424": {
+        "title": "diagonal traverse II",
+        "link": "https://leetcode.com/problems/diagonal-traverse-II/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1424.diagonal.traverse.II/Solution.py",
+        "explanation": ""
+    },
+    "1630": {
+        "title": "arithmetic subarrays",
+        "link": "https://leetcode.com/problems/arithmetic-subarrays/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1630.arithmetic.subarrays/Solution.py",
+        "explanation": ""
+    },
+    "1561": {
+        "title": "maximum number of coins you can get",
+        "link": "https://leetcode.com/problems/maximum-number-of-coins-you-can-get/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1561.maximum.number.of.coins.you.can.get/Solution.py",
+        "explanation": ""
+    },
+    "1727": {
+        "title": "largest submatrix with rearrangements",
+        "link": "https://leetcode.com/problems/largest-submatrix-with-rearrangements/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1727.largest.submatrix.with.rearrangements/Solution.py",
+        "explanation": ""
+    },
+    "935": {
+        "title": "knight dialer",
+        "link": "https://leetcode.com/problems/knight-dialer/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/935.knight.dialer/Solution.py",
+        "explanation": ""
+    },
+    "2147": {
+        "title": "number of ways to divide a long corridor",
+        "link": "https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2147.number.of.ways.to.divide.a.long.corridor/Solution.py",
+        "explanation": ""
+    },
+    "191": {
+        "title": "number of 1 bits",
+        "link": "https://leetcode.com/problems/number-of-1-bits/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/191.number.of.1.bits/Solution.py",
+        "explanation": ""
+    },
+    "1685": {
+        "title": "sum of absolute differences in sorted array",
+        "link": "https://leetcode.com/problems/sum-of-absolute-differences-in-sorted-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1685.sum.of.absolute.differences.in.sorted.array/Solution.py",
+        "explanation": ""
+    },
+    "1611": {
+        "title": "minimum one bit operations to make integers zero",
+        "link": "https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1611.minimum.one.bit.operations.to.make.integers.zero/Solution.py",
+        "explanation": ""
+    },
+    "1662": {
+        "title": "check  If  two string arrays are equivalent",
+        "link": "https://leetcode.com/problems/check -If -two-string-arrays-are-equivalent/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1662.check .If .two.string.arrays.are.equivalent/Solution.py",
+        "explanation": ""
+    },
+    "1160": {
+        "title": "find words that can be formed by characters",
+        "link": "https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1160.find.words.that.can.be.formed.by.characters/Solution.py",
+        "explanation": ""
+    },
+    "1266": {
+        "title": "minimum time visiting all points",
+        "link": "https://leetcode.com/problems/minimum-time-visiting-all-points/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1266.minimum.time.visiting.all.points/Solution.py",
+        "explanation": ""
+    },
+    "2264": {
+        "title": "largest 3-same-digit number in string",
+        "link": "https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2264.largest.3-same-digit.number.in.string/Solution.py",
+        "explanation": ""
+    },
+    "1688": {
+        "title": "Count of matches in tournament",
+        "link": "https://leetcode.com/problems/Count-of-matches-in-tournament/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1688.Count.of.matches.in.tournament/Solution.py",
+        "explanation": ""
+    },
+    "1716": {
+        "title": "calculate money in leetcode bank",
+        "link": "https://leetcode.com/problems/calculate-money-in-leetcode-bank/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1716.calculate.money.in.leetcode.bank/Solution.py",
+        "explanation": ""
+    },
+    "1903": {
+        "title": "largest odd number in string",
+        "link": "https://leetcode.com/problems/largest-odd-number-in-string/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1903.largest.odd.number.in.string/Solution.py",
+        "explanation": ""
+    },
+    "606": {
+        "title": "construct string from binary tree",
+        "link": "https://leetcode.com/problems/construct-string-from-binary-tree/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/606.construct.string.from.binary.tree/Solution.py",
+        "explanation": ""
+    },
+    "94": {
+        "title": "binary tree inorder trasversal",
+        "link": "https://leetcode.com/problems/binary-tree-inorder-trasversal/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/94.binary.tree.inorder.trasversal/Solution.py",
+        "explanation": ""
+    },
+    "867": {
+        "title": "transpose matrix",
+        "link": "https://leetcode.com/problems/transpose-matrix/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/867.transpose.matrix/Solution.py",
+        "explanation": ""
+    },
+    "1287": {
+        "title": "element appearing more than 25% In sorted array",
+        "link": "https://leetcode.com/problems/element-appearing-more-than-25%-In-sorted-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1287.element.appearing.more.than.25%.In.sorted.array/Solution.py",
+        "explanation": ""
+    },
+    "1464": {
+        "title": "maximum product of two elements in an array",
+        "link": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1464.maximum.product.of.two.elements.in.an.array/Solution.py",
+        "explanation": ""
+    },
+    "1582": {
+        "title": "special positions in a binary matrix",
+        "link": "https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1582.special.positions.in.a.binary.matrix/Solution.py",
+        "explanation": ""
+    },
+    "2482": {
+        "title": "differences between ones and zeros in row and column",
+        "link": "https://leetcode.com/problems/differences-between-ones-and-zeros-in-row-and-column/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2482.differences.between.ones.and.zeros.in.row.and.column/Solution.py",
+        "explanation": ""
+    },
+    "1436": {
+        "title": "destination city",
+        "link": "https://leetcode.com/problems/destination-city/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1436.destination.city/Solution.py",
+        "explanation": ""
+    },
+    "242": {
+        "title": "valid anagram",
+        "link": "https://leetcode.com/problems/valid-anagram/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/242.valid.anagram/Solution.py",
+        "explanation": ""
+    },
+    "1913": {
+        "title": "maximum product difference between two pairs",
+        "link": "https://leetcode.com/problems/maximum-product-difference-between-two-pairs/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1913.maximum.product.difference.between.two.pairs/Solution.py",
+        "explanation": ""
+    },
+    "2706": {
+        "title": "buy two chocolates",
+        "link": "https://leetcode.com/problems/buy-two-chocolates/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2706.buy.two.chocolates/Solution.py",
+        "explanation": ""
+    },
+    "1637": {
+        "title": "widest vertical area between two points containing no points",
+        "link": "https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1637.widest.vertical.area.between.two.points.containing.no.points/Solution.py",
+        "explanation": ""
+    },
+    "1422": {
+        "title": "maximum score after splitting a string",
+        "link": "https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1422.maximum.score.after.splitting.a.string/Solution.py",
+        "explanation": ""
+    },
+    "1496": {
+        "title": "path crossing",
+        "link": "https://leetcode.com/problems/path-crossing/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1496.path.crossing/Solution.py",
+        "explanation": ""
+    },
+    "1758": {
+        "title": "minimum changes to make alternating binary string",
+        "link": "https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1758.minimum.changes.to.make.alternating.binary.string/Solution.py",
+        "explanation": ""
+    },
+    "938": {
+        "title": "range sum of BST",
+        "link": "https://leetcode.com/problems/range-sum-of-BST/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/938.range.sum.of.BST/Solution.py",
+        "explanation": ""
+    },
+    "872": {
+        "title": "leaf-Similar trees",
+        "link": "https://leetcode.com/problems/leaf-Similar-trees/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/872.leaf-Similar.trees/Solution.py",
+        "explanation": ""
+    },
+    "2385": {
+        "title": "amount of time for binary tree to be infected",
+        "link": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2385.amount.of.time.for.binary.tree.to.be.infected/Solution.py",
+        "explanation": ""
+    },
+    "1704": {
+        "title": "determine if string halves are alike",
+        "link": "https://leetcode.com/problems/determine-if-string-halves-are-alike/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1704.determine.if.string.halves.are.alike/Solution.py",
+        "explanation": ""
+    },
+    "2225": {
+        "title": "find players with zero or one losses",
+        "link": "https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2225.find.players.with.zero.or.one.losses/Solution.py",
+        "explanation": ""
+    },
+    "1207": {
+        "title": "unique number of occurrences",
+        "link": "https://leetcode.com/problems/unique-number-of-occurrences/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1207.unique.number.of.occurrences/Solution.py",
+        "explanation": ""
+    },
+    "70": {
+        "title": "climbing stairs",
+        "link": "https://leetcode.com/problems/climbing-stairs/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/70.climbing.stairs/Solution.py",
+        "explanation": ""
+    },
+    "931": {
+        "title": "minimum falling path sum",
+        "link": "https://leetcode.com/problems/minimum-falling-path-sum/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/931.minimum.falling.path.sum/Solution.py",
+        "explanation": ""
+    },
+    "2108": {
+        "title": "find first palindromic string in the array",
+        "link": "https://leetcode.com/problems/find-first-palindromic-string-in-the-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2108.find.first.palindromic.string.in.the.array/Solution.py",
+        "explanation": ""
+    },
+    "513": {
+        "title": "find bottom left tree value",
+        "link": "https://leetcode.com/problems/find-bottom-left-tree-value/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/513.find.bottom.left.tree.value/Solution.py",
+        "explanation": ""
+    },
+    "1609": {
+        "title": "even odd tree",
+        "link": "https://leetcode.com/problems/even-odd-tree/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1609.even.odd.tree/Solution.py",
+        "explanation": ""
+    },
+    "2864": {
+        "title": "maximum odd binary number",
+        "link": "https://leetcode.com/problems/maximum-odd-binary-number/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2864.maximum.odd.binary.number/Solution.py",
+        "explanation": ""
+    },
+    "19": {
+        "title": "remove nth node from end of list",
+        "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/19.remove.nth.node.from.end.of.list/Solution.py",
+        "explanation": ""
+    },
+    "977": {
+        "title": "squares of a sorted array",
+        "link": "https://leetcode.com/problems/squares-of-a-sorted-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/977.squares.of.a.sorted.array/Solution.py",
+        "explanation": ""
+    },
+    "948": {
+        "title": "bag of tokens",
+        "link": "https://leetcode.com/problems/bag-of-tokens/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/948.bag.of.tokens/Solution.py",
+        "explanation": ""
+    },
+    "1750": {
+        "title": "minimum length of string after deleting similar ends",
+        "link": "https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1750.minimum.length.of.string.after.deleting.similar.ends/Solution.py",
+        "explanation": ""
+    },
+    "141": {
+        "title": "linked list cycle",
+        "link": "https://leetcode.com/problems/linked-list-cycle/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/141.linked.list.cycle/Solution.py",
+        "explanation": ""
+    },
+    "876": {
+        "title": "middle of the linked list",
+        "link": "https://leetcode.com/problems/middle-of-the-linked-list/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/876.middle.of.the.linked.list/Solution.py",
+        "explanation": ""
+    },
+    "3005": {
+        "title": "count elements with maximum frequency",
+        "link": "https://leetcode.com/problems/count-elements-with-maximum-frequency/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/3005.count.elements.with.maximum.frequency/Solution.py",
+        "explanation": ""
+    },
+    "791": {
+        "title": "custom sort string",
+        "link": "https://leetcode.com/problems/custom-sort-string/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/791.custom.sort.string/Solution.py",
+        "explanation": ""
+    },
+    "1171": {
+        "title": "remove zero sum consecutive nodes from linked list",
+        "link": "https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1171.remove.zero.sum.consecutive.nodes.from.linked.list/Solution.py",
+        "explanation": ""
+    },
+    "2485": {
+        "title": "find the pivot integer",
+        "link": "https://leetcode.com/problems/find-the-pivot-integer/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2485.find.the.pivot.integer/Solution.py",
+        "explanation": ""
+    },
+    "930": {
+        "title": "binary subarrays with sum",
+        "link": "https://leetcode.com/problems/binary-subarrays-with-sum/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/930.binary.subarrays.with.sum/Solution.py",
+        "explanation": ""
+    },
+    "238": {
+        "title": "product of array except self",
+        "link": "https://leetcode.com/problems/product-of-array-except-self/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/238.product.of.array.except.self/Solution.py",
+        "explanation": ""
+    },
+    "57": {
+        "title": "insert interval",
+        "link": "https://leetcode.com/problems/insert-interval/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/57.insert.interval/Solution.py",
+        "explanation": ""
+    },
+    "442": {
+        "title": "find all duplicates in an array",
+        "link": "https://leetcode.com/problems/find-all-duplicates-in-an-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/442.find.all.duplicates.in.an.array/Solution.py",
+        "explanation": ""
+    },
+    "42": {
+        "title": "trapping rain water",
+        "link": "https://leetcode.com/problems/trapping-rain-water/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/42.trapping.rain.water/Solution.py",
+        "explanation": ""
+    },
+    "404": {
+        "title": "sum of left leaves",
+        "link": "https://leetcode.com/problems/sum-of-left-leaves/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/404.sum.of.left.leaves/Solution.py",
+        "explanation": ""
+    },
+    "129": {
+        "title": "sum root to leaf numbers",
+        "link": "https://leetcode.com/problems/sum-root-to-leaf-numbers/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/129.sum.root.to.leaf.numbers/Solution.py",
+        "explanation": ""
+    },
+    "623": {
+        "title": "add one row to tree",
+        "link": "https://leetcode.com/problems/add-one-row-to-tree/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/623.add.one.row.to.tree/Solution.py",
+        "explanation": ""
+    },
+    "988": {
+        "title": "smallest string starting from leaf",
+        "link": "https://leetcode.com/problems/smallest-string-starting-from-leaf/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/988.smallest.string.starting.from.leaf/Solution.py",
+        "explanation": ""
+    },
+    "463": {
+        "title": "island perimeter",
+        "link": "https://leetcode.com/problems/island-perimeter/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/463.island.perimeter/Solution.py",
+        "explanation": ""
+    },
+    "200": {
+        "title": "number of islands",
+        "link": "https://leetcode.com/problems/number-of-islands/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/200.number.of.islands/Solution.py",
+        "explanation": ""
+    },
+    "1971": {
+        "title": "find if path exists in graph",
+        "link": "https://leetcode.com/problems/find-if-path-exists-in-graph/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1971.find.if.path.exists.in.graph/Solution.py",
+        "explanation": ""
+    },
+    "752": {
+        "title": "open the lock",
+        "link": "https://leetcode.com/problems/open-the-lock/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/752.open.the.lock/Solution.py",
+        "explanation": ""
+    },
+    "310": {
+        "title": "minimum height Trees",
+        "link": "https://leetcode.com/problems/minimum-height-Trees/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/310.minimum.height.Trees/Solution.py",
+        "explanation": ""
+    },
+    "1137": {
+        "title": "n-th tribonacci number",
+        "link": "https://leetcode.com/problems/n-th-tribonacci-number/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1137.n-th.tribonacci.number/Solution.py",
+        "explanation": ""
+    },
+    "1289": {
+        "title": "minimum falling path sum II",
+        "link": "https://leetcode.com/problems/minimum-falling-path-sum-II/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1289.minimum.falling.path.sum.II/Solution.py",
+        "explanation": ""
+    },
+    "2997": {
+        "title": "minimum number of operations to make array XOR equal to k",
+        "link": "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-XOR-equal-to-k/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2997.minimum.number.of.operations.to.make.array.XOR.equal.to.k/Solution.py",
+        "explanation": ""
+    },
+    "2441": {
+        "title": "largest positive integer that exists with its negative",
+        "link": "https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2441.largest.positive.integer.that.exists.with.its.negative/Solution.py",
+        "explanation": ""
+    },
+    "165": {
+        "title": "compare version numbers",
+        "link": "https://leetcode.com/problems/compare-version-numbers/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/165.compare.version.numbers/Solution.py",
+        "explanation": ""
+    },
+    "881": {
+        "title": "boats to save people",
+        "link": "https://leetcode.com/problems/boats-to-save-people/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/881.boats.to.save.people/Solution.py",
+        "explanation": ""
+    },
+    "237": {
+        "title": "delete node in a linked list",
+        "link": "https://leetcode.com/problems/delete-node-in-a-linked-list/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/237.delete.node.in.a.linked.list/Solution.py",
+        "explanation": ""
+    },
+    "2487": {
+        "title": "remove nodes from linked list",
+        "link": "https://leetcode.com/problems/remove-nodes-from-linked-list/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2487.remove.nodes.from.linked.list/Solution.py",
+        "explanation": ""
+    },
+    "2816": {
+        "title": "double a number represented as a linked list",
+        "link": "https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2816.double.a.number.represented.as.a.linked.list/Solution.py",
+        "explanation": ""
+    },
+    "506": {
+        "title": "relative ranks",
+        "link": "https://leetcode.com/problems/relative-ranks/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/506.relative.ranks/Solution.py",
+        "explanation": ""
+    },
+    "3075": {
+        "title": "maximise happiness of selected children",
+        "link": "https://leetcode.com/problems/maximise-happiness-of-selected-children/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/3075.maximise.happiness.of.selected.children/Solution.py",
+        "explanation": ""
+    },
+    "786": {
+        "title": "k-th smallest prime fraction",
+        "link": "https://leetcode.com/problems/k-th-smallest-prime-fraction/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/786.k-th.smallest.prime.fraction/Solution.py",
+        "explanation": ""
+    },
+    "857": {
+        "title": "minimum cost to hire k workers",
+        "link": "https://leetcode.com/problems/minimum-cost-to-hire-k-workers/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/857.minimum.cost.to.hire.k.workers/Solution.py",
+        "explanation": ""
+    },
+    "861": {
+        "title": "score after flipping matrix",
+        "link": "https://leetcode.com/problems/score-after-flipping-matrix/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/861.score.after.flipping.matrix/Solution.py",
+        "explanation": ""
+    },
+    "1219": {
+        "title": "path with maximum gold",
+        "link": "https://leetcode.com/problems/path-with-maximum-gold/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1219.path.with.maximum.gold/Solution.py",
+        "explanation": ""
+    },
+    "2331": {
+        "title": "evaluate boolean binary tree",
+        "link": "https://leetcode.com/problems/evaluate-boolean-binary-tree/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2331.evaluate.boolean.binary.tree/Solution.py",
+        "explanation": ""
+    },
+    "1325": {
+        "title": "delete leaves with a given value",
+        "link": "https://leetcode.com/problems/delete-leaves-with-a-given-value/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1325.delete.leaves.with.a.given.value/Solution.py",
+        "explanation": ""
+    },
+    "1863": {
+        "title": "sum of all subset xor totals",
+        "link": "https://leetcode.com/problems/sum-of-all-subset-xor-totals/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1863.sum.of.all.subset.xor.totals/Solution.py",
+        "explanation": ""
+    },
+    "78": {
+        "title": "subsets",
+        "link": "https://leetcode.com/problems/subsets/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/78.subsets/Solution.py",
+        "explanation": ""
+    },
+    "131": {
+        "title": "palindrome partitioning",
+        "link": "https://leetcode.com/problems/palindrome-partitioning/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/131.palindrome.partitioning/Solution.py",
+        "explanation": ""
+    },
+    "2597": {
+        "title": "the number of beautiful subsets",
+        "link": "https://leetcode.com/problems/the-number-of-beautiful-subsets/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2597.the.number.of.beautiful.subsets/Solution.py",
+        "explanation": ""
+    },
+    "1255": {
+        "title": "maximum score words formed by letters",
+        "link": "https://leetcode.com/problems/maximum-score-words-formed-by-letters/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1255.maximum.score.words.formed.by.letters/Solution.py",
+        "explanation": ""
+    },
+    "552": {
+        "title": "student attendance record II",
+        "link": "https://leetcode.com/problems/student-attendance-record-II/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/552.student.attendance.record.II/Solution.py",
+        "explanation": ""
+    },
     "9": {
-        "title": "Palindrome Number",
+        "title": "palindrome number",
         "link": "https://leetcode.com/problems/palindrome-number/description/",
-        "tags": ["Math"],
-        "difficulty": "easy",
+        "tags": [],
+        "difficulty": "Unknown",
         "solution": "problems/9.palindrome.number/Solution.py",
         "explanation": ""
     },
     "13": {
-        "title": "Roman to integer",
+        "title": "roman to integer",
         "link": "https://leetcode.com/problems/roman-to-integer/description/",
-        "tags": ["Hash Table", "Math", "String"],
-        "difficulty": "easy",
+        "tags": [],
+        "difficulty": "Unknown",
         "solution": "problems/13.roman.to.integer/Solution.py",
         "explanation": ""
     },
-    "19": {
-        "title": "Remove nth node from end of list",
-        "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/",
-        "tags": ["Linked List", "Two Pointers"],
-        "difficulty": "medium",
-        "solution": "problems/19.remove.nth.node.from.end.of.list/Solution.py",
-        "explanation": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/solutions/4817192/easy-solution-by-giacomoleetcode-kxpu/"
+    "1608": {
+        "title": "special array with x elements greater than or equal x",
+        "link": "https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1608.special.array.with.x.elements.greater.than.or.equal.x/Solution.py",
+        "explanation": ""
+    },
+    "1208": {
+        "title": "get equal substrings within budget",
+        "link": "https://leetcode.com/problems/get-equal-substrings-within-budget/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1208.get.equal.substrings.within.budget/Solution.py",
+        "explanation": ""
+    },
+    "1442": {
+        "title": "count triplets that can form two arrays of equal xor",
+        "link": "https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1442.count.triplets.that.can.form.two.arrays.of.equal.xor/Solution.py",
+        "explanation": ""
+    },
+    "260": {
+        "title": "single number III",
+        "link": "https://leetcode.com/problems/single-number-III/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/260.single.number.III/Solution.py",
+        "explanation": ""
+    },
+    "3110": {
+        "title": "score of a string",
+        "link": "https://leetcode.com/problems/score-of-a-string/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/3110.score.of.a.string/Solution.py",
+        "explanation": ""
+    },
+    "344": {
+        "title": "reverse string",
+        "link": "https://leetcode.com/problems/reverse-string/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/344.reverse.string/Solution.py",
+        "explanation": ""
+    },
+    "2486": {
+        "title": "append characters to string to make subsequence",
+        "link": "https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2486.append.characters.to.string.to.make.subsequence/Solution.py",
+        "explanation": ""
+    },
+    "409": {
+        "title": "longest palindrome",
+        "link": "https://leetcode.com/problems/longest-palindrome/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/409.longest.palindrome/Solution.py",
+        "explanation": ""
+    },
+    "1002": {
+        "title": "find common characters",
+        "link": "https://leetcode.com/problems/find-common-characters/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1002.find.common.characters/Solution.py",
+        "explanation": ""
+    },
+    "846": {
+        "title": "hand of straights",
+        "link": "https://leetcode.com/problems/hand-of-straights/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/846.hand.of.straights/Solution.py",
+        "explanation": ""
+    },
+    "648": {
+        "title": "replace words",
+        "link": "https://leetcode.com/problems/replace-words/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/648.replace.words/Solution.py",
+        "explanation": ""
+    },
+    "523": {
+        "title": "continuous subarray sum",
+        "link": "https://leetcode.com/problems/continuous-subarray-sum/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/523.continuous.subarray.sum/Solution.py",
+        "explanation": ""
+    },
+    "974": {
+        "title": "subarray sums divisible by k",
+        "link": "https://leetcode.com/problems/subarray-sums-divisible-by-k/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/974.subarray.sums.divisible.by.k/Solution.py",
+        "explanation": ""
+    },
+    "1051": {
+        "title": "height checker",
+        "link": "https://leetcode.com/problems/height-checker/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1051.height.checker/Solution.py",
+        "explanation": ""
+    },
+    "1222": {
+        "title": "relative sort array",
+        "link": "https://leetcode.com/problems/relative-sort-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1222.relative.sort.array/Solution.py",
+        "explanation": ""
+    },
+    "2037": {
+        "title": "minimum number of moves to seat everyone",
+        "link": "https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2037.minimum.number.of.moves.to.seat.everyone/Solution.py",
+        "explanation": ""
+    },
+    "945": {
+        "title": "minimum increment to make array unique",
+        "link": "https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/945.minimum.increment.to.make.array.unique/Solution.py",
+        "explanation": ""
+    },
+    "502": {
+        "title": "IPO",
+        "link": "https://leetcode.com/problems/IPO/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/502.IPO/Solution.py",
+        "explanation": ""
+    },
+    "633": {
+        "title": "sum of square numbers",
+        "link": "https://leetcode.com/problems/sum-of-square-numbers/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/633.sum.of.square.numbers/Solution.py",
+        "explanation": ""
+    },
+    "826": {
+        "title": "most profit assigning work",
+        "link": "https://leetcode.com/problems/most-profit-assigning-work/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/826.most.profit.assigning.work/Solution.py",
+        "explanation": ""
+    },
+    "1482": {
+        "title": "minimum number of days to make m bouquets",
+        "link": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1482.minimum.number.of.days.to.make.m.bouquets/Solution.py",
+        "explanation": ""
+    },
+    "1552": {
+        "title": "magnetic force between two balls",
+        "link": "https://leetcode.com/problems/magnetic-force-between-two-balls/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1552.magnetic.force.between.two.balls/Solution.py",
+        "explanation": ""
+    },
+    "1052": {
+        "title": "grumpy bookstore owner",
+        "link": "https://leetcode.com/problems/grumpy-bookstore-owner/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1052.grumpy.bookstore.owner/Solution.py",
+        "explanation": ""
+    },
+    "1038": {
+        "title": "binary search tree to greater sum tree",
+        "link": "https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1038.binary.search.tree.to.greater.sum.tree/Solution.py",
+        "explanation": ""
+    },
+    "1382": {
+        "title": "balance a binary search tree",
+        "link": "https://leetcode.com/problems/balance-a-binary-search-tree/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1382.balance.a.binary.search.tree/Solution.py",
+        "explanation": ""
+    },
+    "1791": {
+        "title": "find center of star graph",
+        "link": "https://leetcode.com/problems/find-center-of-star-graph/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1791.find.center.of.star.graph/Solution.py",
+        "explanation": ""
+    },
+    "2285": {
+        "title": "maximum total importance of roads",
+        "link": "https://leetcode.com/problems/maximum-total-importance-of-roads/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2285.maximum.total.importance.of.roads/Solution.py",
+        "explanation": ""
+    },
+    "2192": {
+        "title": "all ancestors of a node in a directed acyclic graph",
+        "link": "https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2192.all.ancestors.of.a.node.in.a.directed.acyclic.graph/Solution.py",
+        "explanation": ""
+    },
+    "1550": {
+        "title": "three consecutive odds",
+        "link": "https://leetcode.com/problems/three-consecutive-odds/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1550.three.consecutive.odds/Solution.py",
+        "explanation": ""
+    },
+    "350": {
+        "title": "intersection of two arrys II",
+        "link": "https://leetcode.com/problems/intersection-of-two-arrys-II/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/350.intersection.of.two.arrys.II/Solution.py",
+        "explanation": ""
+    },
+    "1509": {
+        "title": "minimum difference between largest and smallest value in three moves",
+        "link": "https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1509.minimum.difference.between.largest.and.smallest.value.in.three.moves/Solution.py",
+        "explanation": ""
+    },
+    "2181": {
+        "title": "merge nodes in between zeros",
+        "link": "https://leetcode.com/problems/merge-nodes-in-between-zeros/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2181.merge.nodes.in.between.zeros/Solution.py",
+        "explanation": ""
+    },
+    "2058": {
+        "title": "find the minimum and maximum number of nodes between critical points",
+        "link": "https://leetcode.com/problems/find-the-minimum and-maximum-number-of-nodes-between-critical-points/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2058.find.the.minimum and.maximum.number.of.nodes.between.critical.points/Solution.py",
+        "explanation": ""
+    },
+    "2582": {
+        "title": "pass the pillow",
+        "link": "https://leetcode.com/problems/pass-the-pillow/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2582.pass.the.pillow/Solution.py",
+        "explanation": ""
+    },
+    "1518": {
+        "title": "water bottles",
+        "link": "https://leetcode.com/problems/water-bottles/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1518.water.bottles/Solution.py",
+        "explanation": ""
+    },
+    "1190": {
+        "title": "reverse substrings between each pair of parentheses",
+        "link": "https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1190.reverse.substrings.between.each.pair.of.parentheses/Solution.py",
+        "explanation": ""
+    },
+    "1334": {
+        "title": "find the city with the smallest number of neighbors at a threshold distance",
+        "link": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1334.find.the.city.with.the.smallest.number.of.neighbors.at.a.threshold.distance/Solution.py",
+        "explanation": ""
+    },
+    "40": {
+        "title": "combination sum II",
+        "link": "https://leetcode.com/problems/combination-sum-II/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/40.combination.sum.II/Solution.py",
+        "explanation": ""
+    },
+    "624": {
+        "title": "maximum distance in arrays",
+        "link": "https://leetcode.com/problems/maximum-distance-in-arrays/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/624.maximum.distance.in.arrays/Solution.py",
+        "explanation": ""
+    },
+    "590": {
+        "title": "n-ary tree postorder traversal",
+        "link": "https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/590.n-ary.tree.postorder.traversal/Solution.py",
+        "explanation": ""
+    },
+    "145": {
+        "title": "binary tree postorder traversal",
+        "link": "https://leetcode.com/problems/binary-tree-postorder-traversal/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/145.binary.tree.postorder.traversal/Solution.py",
+        "explanation": ""
+    },
+    "2022": {
+        "title": "convert 1D Array Into 2D array",
+        "link": "https://leetcode.com/problems/convert-1D-Array-Into-2D-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2022.convert.1D.Array.Into.2D.array/Solution.py",
+        "explanation": ""
+    },
+    "1894": {
+        "title": "find the student that will replace the chalk",
+        "link": "https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1894.find.the.student.that.will.replace.the.chalk/Solution.py",
+        "explanation": ""
+    },
+    "1945": {
+        "title": "sum of digits of string after convert",
+        "link": "https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1945.sum.of.digits.of.string.after.convert/Solution.py",
+        "explanation": ""
+    },
+    "874": {
+        "title": "walking robot simulation",
+        "link": "https://leetcode.com/problems/walking-robot-simulation/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/874.walking.robot.simulation/Solution.py",
+        "explanation": ""
+    },
+    "2028": {
+        "title": "find missing observations",
+        "link": "https://leetcode.com/problems/find-missing-observations/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2028.find.missing.observations/Solution.py",
+        "explanation": ""
+    },
+    "3217": {
+        "title": "delete nodes from linked list present in array",
+        "link": "https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/3217.delete.nodes.from.linked.list.present.in.array/Solution.py",
+        "explanation": ""
+    },
+    "1367": {
+        "title": "linked list in binary tree",
+        "link": "https://leetcode.com/problems/linked-list-in-binary-tree/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1367.linked.list.in.binary.tree/Solution.py",
+        "explanation": ""
+    },
+    "2326": {
+        "title": "spiral matrix IV",
+        "link": "https://leetcode.com/problems/spiral-matrix-IV/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2326.spiral.matrix.IV/Solution.py",
+        "explanation": ""
+    },
+    "2807": {
+        "title": "insert greatest common divisors in linked list",
+        "link": "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2807.insert.greatest.common.divisors.in.linked.list/Solution.py",
+        "explanation": ""
+    },
+    "2220": {
+        "title": "minimum bit flips to convert number",
+        "link": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2220.minimum.bit.flips.to.convert.number/Solution.py",
+        "explanation": ""
+    },
+    "1684": {
+        "title": "count the number of consistent strings",
+        "link": "https://leetcode.com/problems/count-the-number-of-consistent-strings/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1684.count.the.number.of.consistent.strings/Solution.py",
+        "explanation": ""
+    },
+    "1310": {
+        "title": "xor queries of a subarray",
+        "link": "https://leetcode.com/problems/xor-queries-of-a-subarray/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1310.xor.queries.of.a.subarray/Solution.py",
+        "explanation": ""
+    },
+    "2419": {
+        "title": "longest subarray with maximum bitwise and",
+        "link": "https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2419.longest.subarray.with.maximum.bitwise.and/Solution.py",
+        "explanation": ""
+    },
+    "1371": {
+        "title": "find the longest substring containing vowels in even counts",
+        "link": "https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1371.find.the.longest.substring.containing.vowels.in.even.counts/Solution.py",
+        "explanation": ""
+    },
+    "179": {
+        "title": "largest number",
+        "link": "https://leetcode.com/problems/largest-number/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/179.largest.number/Solution.py",
+        "explanation": ""
+    },
+    "241": {
+        "title": "different ways to add parentheses",
+        "link": "https://leetcode.com/problems/different-ways-to-add-parentheses/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/241.different.ways.to.add.parentheses/Solution.py",
+        "explanation": ""
+    },
+    "214": {
+        "title": "shortest palindrome",
+        "link": "https://leetcode.com/problems/shortest-palindrome/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/214.shortest.palindrome/Solution.py",
+        "explanation": ""
+    },
+    "2707": {
+        "title": "extra characters in a string",
+        "link": "https://leetcode.com/problems/extra-characters-in-a-string/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2707.extra.characters.in.a.string/Solution.py",
+        "explanation": ""
+    },
+    "118": {
+        "title": "pascal's triangle",
+        "link": "https://leetcode.com/problems/pascal's-triangle/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/118.pascal's.triangle/Solution.py",
+        "explanation": ""
+    },
+    "729": {
+        "title": "my calendar I",
+        "link": "https://leetcode.com/problems/my-calendar-I/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/729.my.calendar.I/Solution.py",
+        "explanation": ""
+    },
+    "731": {
+        "title": "my calendar II",
+        "link": "https://leetcode.com/problems/my-calendar-II/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/731.my.calendar.II/Solution.py",
+        "explanation": ""
+    },
+    "1381": {
+        "title": "design a stack with increment operation",
+        "link": "https://leetcode.com/problems/design-a-stack-with-increment-operation/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1381.design.a.stack.with.increment.operation/Solution.py",
+        "explanation": ""
+    },
+    "884": {
+        "title": "uncommon words from two sentences",
+        "link": "https://leetcode.com/problems/uncommon-words-from-two-sentences/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/884.uncommon.words.from.two.sentences/Solution.py",
+        "explanation": ""
+    },
+    "725": {
+        "title": "split linked list in parts",
+        "link": "https://leetcode.com/problems/split-linked-list-in-parts/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/725.split.linked.list.in.parts/Solution.py",
+        "explanation": ""
+    },
+    "1497": {
+        "title": "check if array pairs are divisible by k",
+        "link": "https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1497.check.if.array.pairs.are.divisible.by.k/Solution.py",
+        "explanation": ""
+    },
+    "1331": {
+        "title": "rank transform of an array",
+        "link": "https://leetcode.com/problems/rank-transform-of-an-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1331.rank.transform.of.an.array/Solution.py",
+        "explanation": ""
+    },
+    "1590": {
+        "title": "make sum divisible by p",
+        "link": "https://leetcode.com/problems/make-sum-divisible-by-p/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1590.make.sum.divisible.by.p/Solution.py",
+        "explanation": ""
+    },
+    "2696": {
+        "title": "minimum string length after removing substrings",
+        "link": "https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2696.minimum.string.length.after.removing.substrings/Solution.py",
+        "explanation": ""
+    },
+    "1963": {
+        "title": "minimum number of swaps to make the string balanced",
+        "link": "https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1963.minimum.number.of.swaps.to.make.the.string.balanced/Solution.py",
+        "explanation": ""
+    },
+    "921": {
+        "title": "minimum add to make parentheses valid",
+        "link": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/921.minimum.add.to.make.parentheses.valid/Solution.py",
+        "explanation": ""
+    },
+    "962": {
+        "title": "maximum width ramp",
+        "link": "https://leetcode.com/problems/maximum-width-ramp/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/962.maximum.width.ramp/Solution.py",
+        "explanation": ""
+    },
+    "2914": {
+        "title": "minimum number of changes to make binary string beautiful",
+        "link": "https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2914.minimum.number.of.changes.to.make.binary.string.beautiful/Solution.py",
+        "explanation": ""
+    },
+    "3011FindifArrayCanBeSorted": {
+        "title": "",
+        "link": "https://leetcode.com/problems//description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/3011FindifArrayCanBeSorted/Solution.py",
+        "explanation": ""
+    },
+    "3254": {
+        "title": "FindThePowerofK-SizeSubarraysI ",
+        "link": "https://leetcode.com/problems/FindThePowerofK-SizeSubarraysI /description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/3254.FindThePowerofK-SizeSubarraysI /Solution.py",
+        "explanation": ""
+    },
+    "1652DefuseTheBomb": {
+        "title": "",
+        "link": "https://leetcode.com/problems//description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1652DefuseTheBomb/Solution.py",
+        "explanation": ""
+    },
+    "2461MaximumSumofDistinctSubarraysWithLengthK": {
+        "title": "",
+        "link": "https://leetcode.com/problems//description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2461MaximumSumofDistinctSubarraysWithLengthK/Solution.py",
+        "explanation": ""
+    },
+    "2516TakeKofEachCharacterFromLeftandRight": {
+        "title": "",
+        "link": "https://leetcode.com/problems//description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2516TakeKofEachCharacterFromLeftandRight/Solution.py",
+        "explanation": ""
+    },
+    "2684": {
+        "title": "maximum number of moves in a grid",
+        "link": "https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2684.maximum.number.of.moves.in.a.grid/Solution.py",
+        "explanation": ""
+    },
+    "1346CheckIfNAndItsDoubleExist": {
+        "title": "",
+        "link": "https://leetcode.com/problems//description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1346CheckIfNAndItsDoubleExist/Solution.py",
+        "explanation": ""
+    },
+    "1455CheckIfAWordOccursAsAPrefixOfAnyWordInASentence": {
+        "title": "",
+        "link": "https://leetcode.com/problems//description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1455CheckIfAWordOccursAsAPrefixOfAnyWordInASentence/Solution.py",
+        "explanation": ""
+    },
+    "2109AddingSpacesToAstring": {
+        "title": "",
+        "link": "https://leetcode.com/problems//description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2109AddingSpacesToAstring/Solution.py",
+        "explanation": ""
+    },
+    "2825MakeAstringAsubsequenceUsingCyclicIncrements": {
+        "title": "",
+        "link": "https://leetcode.com/problems//description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2825MakeAstringAsubsequenceUsingCyclicIncrements/Solution.py",
+        "explanation": ""
+    },
+    "1415": {
+        "title": "the k-th lexicographical string of all happy strings of length n",
+        "link": "https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1415.the.k-th.lexicographical.string.of.all.happy.strings.of.length.n/Solution.py",
+        "explanation": ""
+    },
+    "1980": {
+        "title": "find unique binary string",
+        "link": "https://leetcode.com/problems/find-unique-binary-string/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1980.find.unique.binary.string/Solution.py",
+        "explanation": ""
+    },
+    "1261": {
+        "title": "find elements in a contaminated binary tree",
+        "link": "https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1261.find.elements.in.a.contaminated.binary.tree/Solution.py",
+        "explanation": ""
+    },
+    "1524": {
+        "title": "number of sub-arrays with odd sum",
+        "link": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/1524.number.of.sub-arrays.with.odd.sum/Solution.py",
+        "explanation": ""
+    },
+    "2460": {
+        "title": "apply operations to an array",
+        "link": "https://leetcode.com/problems/apply-operations-to-an-array/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2460.apply.operations.to.an.array/Solution.py",
+        "explanation": ""
+    },
+    "2570": {
+        "title": "merge two 2D arrays by summing values",
+        "link": "https://leetcode.com/problems/merge-two-2D-arrays-by-summing-values/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2570.merge.two.2D.arrays.by.summing.values/Solution.py",
+        "explanation": ""
+    },
+    "2161": {
+        "title": "partition array according to given pivot",
+        "link": "https://leetcode.com/problems/partition-array-according-to-given-pivot/description/",
+        "tags": [],
+        "difficulty": "Unknown",
+        "solution": "problems/2161.partition.array.according.to.given.pivot/Solution.py",
+        "explanation": ""
     }
 }
