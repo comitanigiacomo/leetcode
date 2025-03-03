@@ -6,7 +6,7 @@ You can view my LeetCode account by clicking [here](https://leetcode.com/Giacomo
 ### LeetCode Progress Tracker 📅
 |🎯 Problem ID |📌 Title |🏷️ Tags |⚡ Difficulty |📝 Solution | 📖Explanation |
 |--------------|---------|--------|--------------|------------|----------------|
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description//) | ![greedy](https://img.shields.io/badge/-greedy-yellow) ![math](https://img.shields.io/badge/-math-green) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [solution](problems/9.palindrome.number/Solution.py) | [explanation](/) |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description//) | ![greedy](https://img.shields.io/badge/-greedy-yellow) ![math](https://img.shields.io/badge/-math-green) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [solution](problems/9.palindrome.number/Solution.py) | ❌ |
 
 
 # Badges: 

@@ -42,7 +42,7 @@ def generate_table(progress):
         tags = get_tag_badges(data["tags"])
         difficulty_badge = get_difficulty_badge(data.get("difficulty", ""))
         solution = f"[solution]({data['solution']})"
-        explanation = f"[explanation]({data['explanation']}/)"
+        explanation = f"[explanation]({data['explanation']}/)" if data.get('explanation') else "❌"
 
         table_rows += f"| {problem_id} | {link} | {tags} | {difficulty_badge} | {solution} | {explanation} |\n"
 
