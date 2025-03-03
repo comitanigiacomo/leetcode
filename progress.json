@@ -141,11 +141,15 @@
         "solution": "problems/1503.last.moment.before.all.ants.fall.out.of.a.plank/Solution.go"
     },
     "1441": {
-        "title": "build an array with stack operation",
-        "link": "https://leetcode.com/problems/build-an-array-with-stack-operation/description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/1441.build.an.array.with.stack.operation/Solution.go"
+        "title": "build an array with stack operations",
+        "link": "https://leetcode.com/problems/build-an-array-with-stack-operations/description/",
+        "tags": [
+            "Array",
+            "Stack",
+            "Simulation"
+        ],
+        "difficulty": "Medium",
+        "solution": "problems/1441.build.an.array.with.stack.operations/Solution.go"
     },
     "1356": {
         "title": "sort integers by the number of 1 bits",
@@ -183,11 +187,16 @@
         "solution": "problems/501.find.mode.in.binary.search.tree/Solution.go"
     },
     "1814": {
-        "title": "count nice paris in an array",
-        "link": "https://leetcode.com/problems/count-nice-paris-in-an-array/description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/1814.count.nice.paris.in.an.array/Solution.py"
+        "title": "count nice pairs in an array",
+        "link": "https://leetcode.com/problems/count-nice-pairs-in-an-array/description/",
+        "tags": [
+            "Array",
+            "Hash Table",
+            "Math",
+            "Counting"
+        ],
+        "difficulty": "Medium",
+        "solution": "problems/1814.count.nice.pairs.in.an.array/Solution.py"
     },
     "1424": {
         "title": "diagonal traverse II",
@@ -267,11 +276,15 @@
         "solution": "problems/191.number.of.1.bits/Solution.py"
     },
     "1685": {
-        "title": "sum of absolute differences in sorted array",
-        "link": "https://leetcode.com/problems/sum-of-absolute-differences-in-sorted-array/description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/1685.sum.of.absolute.differences.in.sorted.array/Solution.py"
+        "title": "sum of absolute differences in a sorted array",
+        "link": "https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/",
+        "tags": [
+            "Array",
+            "Math",
+            "Prefix Sum"
+        ],
+        "difficulty": "Medium",
+        "solution": "problems/1685.sum.of.absolute.differences.in.a.sorted.array/Solution.py"
     },
     "1611": {
         "title": "minimum one bit operations to make integers zero",
@@ -359,11 +372,16 @@
         "solution": "problems/606.construct.string.from.binary.tree/Solution.py"
     },
     "94": {
-        "title": "binary tree inorder trasversal",
-        "link": "https://leetcode.com/problems/binary-tree-inorder-trasversal/description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/94.binary.tree.inorder.trasversal/Solution.py"
+        "title": "binary tree inorder traversal",
+        "link": "https://leetcode.com/problems/binary-tree-inorder-traversal/description/",
+        "tags": [
+            "Stack",
+            "Tree",
+            "Depth-First Search",
+            "Binary Tree"
+        ],
+        "difficulty": "Easy",
+        "solution": "problems/94.binary.tree.inorder.traversal/Solution.py"
     },
     "867": {
         "title": "transpose matrix",
@@ -377,11 +395,13 @@
         "solution": "problems/867.transpose.matrix/Solution.py"
     },
     "1287": {
-        "title": "element appearing more than 25% In sorted array",
-        "link": "https://leetcode.com/problems/element-appearing-more-than-25%-In-sorted-array/description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/1287.element.appearing.more.than.25%.In.sorted.array/Solution.py"
+        "title": "element appearing more than 25 In sorted array",
+        "link": "https://leetcode.com/problems/element-appearing-more-than-25-In-sorted-array/description/",
+        "tags": [
+            "Array"
+        ],
+        "difficulty": "Easy",
+        "solution": "problems/1287.element.appearing.more.than.25.In.sorted.array/Solution.py"
     },
     "1464": {
         "title": "maximum product of two elements in an array",
@@ -405,11 +425,15 @@
         "solution": "problems/1582.special.positions.in.a.binary.matrix/Solution.py"
     },
     "2482": {
-        "title": "differences between ones and zeros in row and column",
-        "link": "https://leetcode.com/problems/differences-between-ones-and-zeros-in-row-and-column/description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/2482.differences.between.ones.and.zeros.in.row.and.column/Solution.py"
+        "title": "difference between ones and zeros in row and column",
+        "link": "https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/description/",
+        "tags": [
+            "Array",
+            "Matrix",
+            "Simulation"
+        ],
+        "difficulty": "Medium",
+        "solution": "problems/2482.difference.between.ones.and.zeros.in.row.and.column/Solution.py"
     },
     "1436": {
         "title": "destination city",
@@ -1007,11 +1031,15 @@
         "solution": "problems/506.relative.ranks/Solution.py"
     },
     "3075": {
-        "title": "maximise happiness of selected children",
-        "link": "https://leetcode.com/problems/maximise-happiness-of-selected-children/description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/3075.maximise.happiness.of.selected.children/Solution.py"
+        "title": "maximize happiness of selected children",
+        "link": "https://leetcode.com/problems/maximize-happiness-of-selected-children/description/",
+        "tags": [
+            "Array",
+            "Greedy",
+            "Sorting"
+        ],
+        "difficulty": "Medium",
+        "solution": "problems/3075.maximize.happiness.of.selected.children/Solution.py"
     },
     "786": {
         "title": "k-th smallest prime fraction",
@@ -1505,11 +1533,17 @@
         "solution": "problems/1550.three.consecutive.odds/Solution.py"
     },
     "350": {
-        "title": "intersection of two arrys II",
-        "link": "https://leetcode.com/problems/intersection-of-two-arrys-II/description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/350.intersection.of.two.arrys.II/Solution.py"
+        "title": "intersection of two arrays II",
+        "link": "https://leetcode.com/problems/intersection-of-two-arrays-II/description/",
+        "tags": [
+            "Array",
+            "Hash Table",
+            "Two Pointers",
+            "Binary Search",
+            "Sorting"
+        ],
+        "difficulty": "Easy",
+        "solution": "problems/350.intersection.of.two.arrays.II/Solution.py"
     },
     "1509": {
         "title": "minimum difference between largest and smallest value in three moves",
@@ -1801,11 +1835,14 @@
         "solution": "problems/2707.extra.characters.in.a.string/Solution.py"
     },
     "118": {
-        "title": "pascal's triangle",
-        "link": "https://leetcode.com/problems/pascal's-triangle/description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/118.pascal's.triangle/Solution.py"
+        "title": "pascals triangle",
+        "link": "https://leetcode.com/problems/pascals-triangle/description/",
+        "tags": [
+            "Array",
+            "Dynamic Programming"
+        ],
+        "difficulty": "Easy",
+        "solution": "problems/118.pascals.triangle/Solution.py"
     },
     "729": {
         "title": "my calendar I",
@@ -2125,11 +2162,14 @@
         "solution": "problems/2109.adding.spaces.to.a.string/Solution.py"
     },
     "2825": {
-        "title": "make a string a subsequence using cyclic increments",
-        "link": "https://leetcode.com/problems/make-a-string-a-subsequence-using-cyclic-increments/description/",
-        "tags": [],
-        "difficulty": "Unknown",
-        "solution": "problems/2825.make.a.string.a.subsequence.using.cyclic.increments/Solution.py"
+        "title": "make string a subsequence using cyclic increments",
+        "link": "https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/description/",
+        "tags": [
+            "Two Pointers",
+            "String"
+        ],
+        "difficulty": "Medium",
+        "solution": "problems/2825.make.string.a.subsequence.using.cyclic.increments/Solution.py"
     },
     "3254": {
         "title": "find the power of k size subarrays i",

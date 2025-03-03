@@ -20,7 +20,7 @@ def get_difficulty_badge(difficulty):
 def get_tag_badges(tags):
     tag_colors = {
         "Array": "blue", "String": "green", "Hash Table": "orange", "Dynamic Programming": "red", 
-        "Math": "purple", "Sorting": "yellow", "Greedy": "brightgreen", "Depth-First Search": "blueviolet", 
+        "Math": "purple", "Sorting": "yellow", "Greedy": "brightgreen", "Depth-First Search": "orange", 
         "Binary Search": "dodgerblue", "Database": "darkblue", "Matrix": "brown", "Tree": "forestgreen", 
         "Breadth-First Search": "lightblue", "Bit Manipulation": "darkgreen", "Two Pointers": "darkred", 
         "Prefix Sum": "darkmagenta", "Heap (Priority Queue)": "darkcyan", "Binary Tree": "darkorange", 
