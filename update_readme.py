@@ -70,7 +70,6 @@ def update_readme(readme_path, table_content):
     with open(readme_path, 'r') as file:
         lines = file.readlines()
 
-    # Trova la posizione della tabella esistente
     start_marker = "### LeetCode Progress Tracker 📅\n"
     table_start = None
     table_end = None
@@ -78,31 +77,25 @@ def update_readme(readme_path, table_content):
     for i, line in enumerate(lines):
         if start_marker in line:
             table_start = i
-            # Trova la fine della tabella (prima riga che non comincia con "|")
             table_end = i + 1
             while table_end < len(lines) and lines[table_end].startswith("|"):
                 table_end += 1
             break
 
-    # Se esiste una tabella, rimuoviamola
     if table_start is not None and table_end is not None:
         lines = lines[:table_start] + lines[table_end:]
 
-    # Inseriamo la nuova tabella
     profile_marker = "You can view my LeetCode account by clicking [here](https://leetcode.com/GiacomoLeetCode/)"
     profile_index = None
 
-    # Troviamo l'indice dove si trova il link al profilo
     for i, line in enumerate(lines):
         if profile_marker in line:
             profile_index = i
             break
 
-    # Inseriamo la nuova tabella subito dopo il profilo
     if profile_index is not None:
         lines = lines[:profile_index + 1] + [table_content] + lines[profile_index + 1:]
 
-    # Scriviamo il file aggiornato
     with open(readme_path, 'w') as file:
         file.writelines(lines)
 
