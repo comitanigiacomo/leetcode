@@ -3,7 +3,7 @@
 Welcome to my repository of LeetCode problem solutions. Here, you can find my solutions to various coding problems from [LeetCode](https://leetcode.com/), along with explanations and code snippets.
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/GiacomoLeetCode" alt="Leetcode Stats">
+  <img src="https://leetcard.jacoblin.cool/GiacomoLeetCode?ext=activity" alt="Leetcode Stats">
 </p>
 
 You can view my LeetCode account by clicking [here](https://leetcode.com/GiacomoLeetCode/)
