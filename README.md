@@ -225,6 +225,7 @@ Here’s a list of some solutions on LeetCode, along with my thought process for
 - [2849.determine.if.a.cell.is.reachable.at.a.given.time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/solutions/4264712/easy-solution-by-giacomoleetcode-koby/)
 - [1838.frequency.of.the.most.frequent.element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/solutions/4302242/sliding-window-approach-by-giacomoleetco-v2op/)
 - [1424.diagonal.traverse.II](https://leetcode.com/problems/diagonal-traverse-ii/solutions/4317100/easy-go-solution-by-giacomoleetcode-ehja/)
+- [2523.closest.prime.numbers.in.range](https://leetcode.com/problems/closest-prime-numbers-in-range/solutions/6508815/easy-solution-by-giacomoleetcode-2cyy/)
 
 # Badges: 
 
