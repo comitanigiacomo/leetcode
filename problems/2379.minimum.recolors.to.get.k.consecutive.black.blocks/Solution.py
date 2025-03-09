@@ -11,7 +11,7 @@ class Solution:
                 pos += 1
         
         return result
-        
+
 blocks = "WBBWWBBWBW"
 k = 7
 print(Solution().minimumRecolors(blocks, k))
