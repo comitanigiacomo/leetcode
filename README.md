@@ -230,6 +230,7 @@ Here’s a list of some solutions on LeetCode, along with my thought process for
 - [1424.diagonal.traverse.II](https://leetcode.com/problems/diagonal-traverse-ii/solutions/4317100/easy-go-solution-by-giacomoleetcode-ehja/)
 - [2523.closest.prime.numbers.in.range](https://leetcode.com/problems/closest-prime-numbers-in-range/solutions/6508815/easy-solution-by-giacomoleetcode-2cyy/)
 - [2379.minimum.recolors.to.get.k.consecutive.black.blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/solutions/6517910/window-solution-by-giacomoleetcode-t1hj/)
+- [2529.maximum.count.of.positive.integer.and.negative.integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/solutions/6529399/order-matters-by-giacomoleetcode-2gha/)
 
 # Badges: 
 
