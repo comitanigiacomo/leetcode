@@ -11,9 +11,9 @@ def load_progress(file_path):
 
 def get_difficulty_badge(difficulty):
     badges = {
-        "easy": "![Easy](https://img.shields.io/badge/-Easy-brightgreen)",
-        "medium": "![Medium](https://img.shields.io/badge/-Medium-orange)",
-        "hard": "![Hard](https://img.shields.io/badge/-Hard-darkred)"
+        "easy": "![Easy](https://img.shields.io/badge/-Easy-00008B)",
+        "medium": "![Medium](https://img.shields.io/badge/-Medium-00008B)",
+        "hard": "![Hard](https://img.shields.io/badge/-Hard-00008B)"
     }
     return badges.get(difficulty.lower(), "")
 
