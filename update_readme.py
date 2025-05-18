@@ -18,35 +18,9 @@ def get_difficulty_badge(difficulty):
     return badges.get(difficulty.lower(), "")
 
 def get_tag_badges(tags):
-    tag_colors = {
-        "Array": "blue", "String": "green", "Hash Table": "orange", "Dynamic Programming": "red", 
-        "Math": "purple", "Sorting": "yellow", "Greedy": "brightgreen", "Depth-First Search": "orange", 
-        "Binary Search": "dodgerblue", "Database": "darkblue", "Matrix": "brown", "Tree": "forestgreen", 
-        "Breadth-First Search": "lightblue", "Bit Manipulation": "darkgreen", "Two Pointers": "darkred", 
-        "Prefix Sum": "darkmagenta", "Heap (Priority Queue)": "darkcyan", "Binary Tree": "darkorange", 
-        "Simulation": "olive", "Stack": "lightgreen", "Graph": "lightcoral", "Counting": "lightsalmon", 
-        "Sliding Window": "lightseagreen", "Design": "lightskyblue", "Enumeration": "lightsteelblue", 
-        "Backtracking": "lightyellow", "Union Find": "lightpink", "Linked List": "lavender", 
-        "Number Theory": "thistle", "Ordered Set": "plum", "Monotonic Stack": "violet", "Segment Tree": "orchid", 
-        "Trie": "mediumpurple", "Combinatorics": "slateblue", "Bitmask": "royalblue", "Queue": "cornflowerblue", 
-        "Divide and Conquer": "deepskyblue", "Recursion": "skyblue", "Memoization": "powderblue", 
-        "Binary Indexed Tree": "paleturquoise", "Geometry": "lightcyan", "Binary Search Tree": "mintcream", 
-        "Hash Function": "honeydew", "String Matching": "azure", "Topological Sort": "aliceblue", 
-        "Shortest Path": "ghostwhite", "Rolling Hash": "whitesmoke", "Game Theory": "gainsboro", 
-        "Interactive": "lightgray", "Data Stream": "silver", "Monotonic Queue": "darkgray", "Brainteaser": "gray", 
-        "Randomized": "dimgray", "Merge Sort": "black", "Doubly-Linked List": "rosybrown", 
-        "Counting Sort": "indianred", "Iterator": "firebrick", "Concurrency": "brown", 
-        "Probability and Statistics": "maroon", "Quickselect": "darkred", "Suffix Array": "sienna", 
-        "Bucket Sort": "saddlebrown", "Line Sweep": "chocolate", "Minimum Spanning Tree": "peru", 
-        "Shell": "goldenrod", "Reservoir Sampling": "darkgoldenrod", "Strongly Connected Component": "tan", 
-        "Eulerian Circuit": "burlywood", "Radix Sort": "beige", "Rejection Sampling": "white", 
-        "Biconnected Component": "lightgrey"
-    }
-    
     return " ".join(
-        f"![{tag}](https://img.shields.io/badge/-{tag.replace(' ', '_').replace('-', '_').lower()}-{tag_colors.get(tag, 'lightgrey')})"
+        f"![{tag}](https://img.shields.io/badge/-{tag.replace(' ', '_').replace('-', '_').lower()}-blue)"
         for tag in tags
-        if tag in tag_colors
     )
 
 def generate_table(progress):
