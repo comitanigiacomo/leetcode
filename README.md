@@ -239,6 +239,8 @@ Here’s a list of some solutions on LeetCode, along with my thought process for
 - [2529.maximum.count.of.positive.integer.and.negative.integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/solutions/6529399/order-matters-by-giacomoleetcode-2gha/)
 - [257.binary.tree.paths](https://leetcode.com/problems/binary-tree-paths/solutions/6757164/backtracking-my-first-ever-solution-to-u-8dvc/)
 
+- [120.Triangle](https://leetcode.com/problems/triangle/solutions/7223020/solution-with-thought-process-by-giacomo-5lt5/)
+
 # Badges: 
 
 <img src="https://assets.leetcode.com/static_assets/others/Introduction_to_Pandas_Badge.png" width="70"> <img src="https://assets.leetcode.com/static_assets/marketing/lg50.png" width="70"><img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" width="70"> <img src="https://assets.leetcode.com/static_assets/marketing/2024-100-lg.png" width="70">
