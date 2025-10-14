@@ -6,7 +6,7 @@ class Solution:
         if k == 1:
             return True
         
-        count = 1
+        count = 0
         tmp = []
         
         for i in range(1, len(nums)):
@@ -14,13 +14,16 @@ class Solution:
                 count +=1
             else:
                 tmp.append(count + 1)
-                count = 1
+                count = 0
                 
-        tmp.append(count)   
+        tmp.append(count + 1)   
+                
+        if len(tmp) == 1 and tmp[0] >= 2*k:
+            return True
                              
-        for i in range(0, len(tmp)-1):
-            if (tmp[i] >= k and tmp[i+1] >= k) or (tmp[i] >= 2*k):
-                return True      
+        for i in range(1, len(tmp)):
+            if (tmp[i] >= k and tmp[i-1] >= k) or (tmp[i] >= 2*k) or (tmp[i-1] >= 2*k):
+                return True
 
         return False
 
