@@ -263,4 +263,4 @@ Here’s a list of some solutions on LeetCode, along with my thought process for
 
 # Badges: 
 
-<img src="https://assets.leetcode.com/static_assets/others/Introduction_to_Pandas_Badge.png" width="70"> <img src="https://assets.leetcode.com/static_assets/marketing/lg50.png" width="70"><img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" width="70"> <img src="https://assets.leetcode.com/static_assets/marketing/2024-100-lg.png" width="70">
+<img src="https://assets.leetcode.com/static_assets/others/Introduction_to_Pandas_Badge.png" width="70"> <img src="https://assets.leetcode.com/static_assets/marketing/lg50.png" width="70"><img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" width="70"> <img src="https://assets.leetcode.com/static_assets/marketing/2024-100-lg.png" width="70"><img alt="50 Days Badge 2025" class="h-full w-full cursor-pointer object-contain" data-state="closed" src="https://assets.leetcode.com/static_assets/others/lg2550.png" width="70">
