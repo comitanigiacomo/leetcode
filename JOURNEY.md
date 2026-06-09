@@ -42,6 +42,68 @@ The ultimate goal of this log is to help me structure my thoughts, consolidate m
 > **Efficient Bit Counting:**
 > For bit manipulation, avoid shifting loops where possible. Instead, use `int.bit_count()`.
 
+### Find Mode in Binary Search Tree (LC 501)
+
+* **BST & In-order Traversal Property:**
+  In a Binary Search Tree (BST), the left child is less than or equal to the node, and the right child is greater than or equal to the node. This allows us to traverse the tree using in-order traversal to visit nodes sequentially, meaning that any duplicate values will appear adjacent to each other.
 
 
+* **Morris In-order Traversal ($O(1)$ Space Optimization):**
+  While a recursive traversal avoids helper data structures, it still uses $O(H)$ space (where $H$ is the tree height) due to the execution call stack. To achieve true $O(1)$ auxiliary space, we can use the **Morris Traversal** algorithm:
+  * **How it works:**
+    1. Start at `current = root`.
+    2. If `current.left` is `None`: Process `current.val` and move right (`current = current.right`).
+    3. If `current.left` is not `None`: Find the **in-order predecessor** (the rightmost node in the left subtree):
+       * **If its right child is `None`:** Create a temporary link (thread) back to `current` (`predecessor.right = current`) to remember the return path, then go left (`current = current.left`).
+       * **If its right child is `current`:** It means we have finished visiting the left subtree and returned. Break the thread (`predecessor.right = None`), process `current.val`, and go right (`current = current.right`).
 
+  ```python
+  class Solution:
+      def findMode(self, root: Optional[TreeNode]) -> List[int]:
+          current_element = None
+          current_count = 0
+          max_count = 0
+          modes = []
+
+          def handle_value(val):
+              nonlocal current_element, current_count, max_count, modes
+              if val != current_element:
+                  current_element = val
+                  current_count = 1
+              else:
+                  current_count += 1
+
+              if current_count > max_count:
+                  max_count = current_count
+                  modes = [val]
+              elif current_count == max_count:
+                  modes.append(val)
+
+          current = root
+          while current:
+              if not current.left:
+                  handle_value(current.val)
+                  current = current.right
+              else:
+                  predecessor = current.left
+                  while predecessor.right and predecessor.right != current:
+                      predecessor = predecessor.right
+
+                  if not predecessor.right:
+                      predecessor.right = current
+                      current = current.left
+                  else:
+                      predecessor.right = None
+                      handle_value(current.val)
+                      current = current.right
+
+          return modes
+  ```
+
+> [!NOTE]
+> **BST Sorted Order Property:**
+> An in-order traversal (Left $\rightarrow$ Node $\rightarrow$ Right) of a Binary Search Tree (BST) always yields elements in **ascending (sorted) order**. This allows adjacent comparisons to find modes or duplicates in a single pass without extra memory (no hash map needed).
+
+> [!NOTE]
+> **Enclosing Scope and `nonlocal`:**
+> When using nested helper functions in Python (like `handle_value` inside `findMode`), use the `nonlocal` keyword to modify variables defined in the outer scope. This prevents Python from creating a new local variable during assignment.
