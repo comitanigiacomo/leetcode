@@ -13,6 +13,7 @@ The learnings are organized into specialized topic pages. Each page deep-dives i
 | Topic / Category | Key Concepts Covered | Notes Link |
 | :--- | :--- | :--- |
 | **Bit Manipulation & Sorting** | Multi-criteria sorting, Schwartzian Transform (Python vs. Go sort performance), set bit counting. | [View Notes ↗](./journey/bit_manipulation.md) |
+| **Hash Table & Counting** | Python's Counter C-implementation speed, short-circuit evaluation using all(). | [View Notes ↗](./journey/hash_table_counting.md) |
 
 
 ## Repository Quick Links
