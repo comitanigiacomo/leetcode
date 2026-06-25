@@ -7,6 +7,9 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
+# Define paths relative to the script location
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 
 def load_json(filename):
     with open(filename, 'r') as f:
@@ -15,7 +18,6 @@ def load_json(filename):
 def save_json(data, filename):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)
-
 
 def get_difficulty_and_tags(problem_name):
     problem_name = problem_name.lower().replace(' ', '-')
@@ -54,12 +56,10 @@ def update_challenge(data, challenge_id, title, link, tags, difficulty, solution
     }
 
 def main():
-    json_file = 'progress.json'
-    
+    json_file = os.path.join(REPO_ROOT, 'progress.json')
     data = load_json(json_file)
 
-    repo_path = os.path.abspath("problems")
-
+    repo_path = os.path.join(REPO_ROOT, "problems")
 
     for folder_name in os.listdir(repo_path):
         folder_path = os.path.join(repo_path, folder_name)
@@ -69,9 +69,6 @@ def main():
             
             title = ' '.join(folder_name.split('.')[1:])
             
-            problem_name = folder_name.replace('.', '-')
-            link = f"https://leetcode.com/problems/{problem_name}/description/"
-
             link = f"https://leetcode.com/problems/{'.'.join(folder_name.split('.')[1:]).replace('.', '-')}/description/"
 
             solution_file = None
@@ -80,6 +77,7 @@ def main():
                     solution_file = file
                     break
 
+            # The path stored in progress.json must remain relative to the repo root
             solution = f"problems/{folder_name}/{solution_file}" if solution_file else "Unknown"
 
             try:

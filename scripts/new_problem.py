@@ -4,7 +4,10 @@ import re
 import requests
 import json
 
-PROBLEMS_DIR = "problems"
+# Define paths relative to the script location
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(SCRIPT_DIR)
+PROBLEMS_DIR = os.path.join(REPO_ROOT, "problems")
 SOLUTION_FILENAME = "Solution.py"
 DEFAULT_LANG_SLUG = "python3"
 
@@ -70,7 +73,6 @@ def get_problem_boilerplate(title_slug):
         "variables": variables,
         "query": query
     }
-    
     
     try:
         response = requests.post('https://leetcode.com/graphql', json=payload)

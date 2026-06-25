@@ -25,10 +25,10 @@ jobs:
           pip install -r requirements.txt  # Se hai un file requirements.txt con le dipendenze
 
       - name: Run automatic.py
-        run: python automatic.py
+        run: python scripts/automatic.py
 
       - name: Run update_readme.py
-        run: python update_readme.py
+        run: python scripts/update_readme.py
 
       - name: Configure Git
         run: |

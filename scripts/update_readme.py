@@ -1,9 +1,11 @@
+import os
 import json
 
-from sympy import li
-
-README_FILE = "README.md"
-PROGRESS_FILE = "progress.json"
+# Define paths relative to the script location
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(SCRIPT_DIR)
+README_FILE = os.path.join(REPO_ROOT, "README.md")
+PROGRESS_FILE = os.path.join(REPO_ROOT, "progress.json")
 
 def load_progress(file_path):
     with open(file_path, 'r') as file:

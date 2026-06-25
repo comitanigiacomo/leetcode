@@ -18,6 +18,7 @@ The learnings are organized into specialized topic pages. Each page deep-dives i
 
 ## Repository Quick Links
 * **[README.md](./README.md)**: Full progress tracker table with difficulty badges, tags, and solution files.
+* **[RULES.md](./RULES.md)**: Personal cheatsheet of coding rules, optimizations, and best practices.
 * **[Problems Directory](./problems/)**: Direct access to all problem folders containing individual implementations.
 
 > [!NOTE]
