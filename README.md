@@ -10,7 +10,6 @@ Welcome to my repository of LeetCode problem solutions. Here, you can find my so
 
 Apart from the solved problems listed below, this repo contains:
 * **[JOURNEY.md](./JOURNEY.md)**: My personal diary tracking core algorithmic concepts, optimization strategies, and hardware details.
-* **[RULES.md](./RULES.md)**: A quick, minimalist cheatsheet of coding rules to remember for clean and optimized code.
 * **Automated Progress Tracking**: A GitHub Action pipeline that runs on push. It scans my `problems/` directory, queries LeetCode's API for tags and difficulty, and updates this README table automatically.
 
 You can view my LeetCode account by clicking [here](https://leetcode.com/GiacomoLeetCode/)
