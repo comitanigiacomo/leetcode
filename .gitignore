@@ -1,6 +1,11 @@
 .vscode/
 *.exe
 solution
+Solution
+target/
+Cargo.toml
+Cargo.lock
+rust-project.json
 knowledgeJourney/
 NOTES_TEMPLATE.md
 roadmap.md
